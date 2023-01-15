@@ -1,43 +1,43 @@
 {
   "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
-    "/assets/virtual_pwa-register-a2fc0ec2.js"
+    "/assets/virtual_pwa-register-2f048f1a.js"
   ],
   "src/layouts/home.vue": [
-    "/assets/home-d573e7bd.js"
+    "/assets/home-7d31df4b.js"
   ],
   "src/pages/README.md": [
-    "/assets/README-d429a458.js"
+    "/assets/README-b511bbbf.js"
   ],
   "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_...all_-25ab8dce.js"
+    "/assets/_...all_-1d6f30d4.js"
   ],
   "src/pages/[...all].vue": [
-    "/assets/_...all_-25ab8dce.js"
+    "/assets/_...all_-1d6f30d4.js"
   ],
   "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-9d501e36.js"
+    "/assets/404-c3f2bac0.js"
   ],
   "src/layouts/404.vue": [
-    "/assets/404-9d501e36.js"
+    "/assets/404-c3f2bac0.js"
   ],
   "src/stores/user.ts": [
-    "/assets/_name_-23215e8a.js"
+    "/assets/_name_-20a195ce.js"
   ],
   "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_name_-23215e8a.js"
+    "/assets/_name_-20a195ce.js"
   ],
   "src/pages/hi/[name].vue": [
-    "/assets/_name_-23215e8a.js"
+    "/assets/_name_-20a195ce.js"
   ],
   "node_modules/.pnpm/workbox-window@6.5.4/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
     "/assets/workbox-window.prod.es5-295a6886.js"
   ],
   "src/pages/about.md?vue&type=style&index=0&scoped=e91269a1&lang.css": [
-    "/assets/about-b87ce36f.js",
+    "/assets/about-519c36ed.js",
     "/assets/about-4b58cec4.css"
   ],
   "src/pages/about.md": [
-    "/assets/about-b87ce36f.js",
+    "/assets/about-519c36ed.js",
     "/assets/about-4b58cec4.css"
   ],
   "\u0000vite/modulepreload-polyfill": [],

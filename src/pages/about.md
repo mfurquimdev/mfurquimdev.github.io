@@ -14,7 +14,9 @@ title: About
 // syntax highlighting example
 function vitesse() {
   const foo = 'bar'
-  console.log(foo)
+  if foo == 1 {
+    console.log(foo)
+  }
 }
 ```
 

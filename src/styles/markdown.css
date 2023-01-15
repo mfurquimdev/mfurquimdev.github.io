@@ -1,22 +1,15 @@
 .prose pre:not(.shiki) {
-  padding: 0;
+  padding: 100;
 }
 
 .prose .shiki {
-  font-family: 'DM Mono', monospace;
+  font-family: 'FiraCousine Mono', monospace;
   font-size: 1.2em;
-  line-height: 1.4;
+  line-height: 1.3;
 }
 
 .prose img {
   width: 100%;
-}
-
-.shiki-light {
-  background: #f8f8f8 !important;
-}
-.shiki-dark {
-  background: #0e0e0e !important;
 }
 
 html.dark .shiki-light {
