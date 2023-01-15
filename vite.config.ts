@@ -18,6 +18,7 @@ import Shiki from 'markdown-it-shiki'
 import VueMacros from 'unplugin-vue-macros/vite'
 
 export default defineConfig({
+  base: '/',
   resolve: {
     alias: {
       '~/': `${path.resolve(__dirname, 'src')}/`,
