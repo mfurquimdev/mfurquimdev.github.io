@@ -5,7 +5,7 @@
    height="8"
    shape-rendering="crispEdges"
    id="svg1444"
-   sodipodi:docname="favicon-alpha.svg"
+   sodipodi:docname="favicon.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    inkscape:export-filename="/home/mfkn/projects/mfurquimdev/visual_identity/logos/smallest_logo_transparent.png"
    inkscape:export-xdpi="958.40265"
@@ -36,6 +36,13 @@
      inkscape:current-layer="svg1444"
      inkscape:showpageshadow="0"
      inkscape:deskcolor="#505050" />
+  <rect
+     style="fill:#2e3440;fill-opacity:1;stroke:none;stroke-width:0.999999;stroke-opacity:1"
+     id="rect2494"
+     width="8"
+     height="8"
+     x="0"
+     y="0" />
   <path
      id="rect1400"
      style="fill:#66738e;fill-opacity:1;stroke:#66738e;stroke-width:0.01;stroke-opacity:1"

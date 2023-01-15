@@ -118,7 +118,7 @@ define(['./workbox-01d9f47c'], (function (workbox) { 'use strict';
     "revision": "5f2291e1981fdfa6dda8ec33fc31f518"
   }, {
     "url": "favicon.svg",
-    "revision": "11318033c9d9894f54b44289ebfe5e48"
+    "revision": "232e364bef2dd12a2093989b2dc5d5f5"
   }, {
     "url": "safari-pinned-tab.svg",
     "revision": "5eaf74d1c43d30e0af743b68a3f48504"
