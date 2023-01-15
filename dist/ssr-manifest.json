@@ -1,33 +1,33 @@
 {
-  "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
-    "/assets/virtual_pwa-register-6cbf9231.js"
-  ],
   "src/layouts/home.vue": [
-    "/assets/home-1e11efc9.js"
+    "/assets/home-0f1a6b6e.js"
   ],
-  "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-10879e85.js"
-  ],
-  "src/layouts/404.vue": [
-    "/assets/404-10879e85.js"
-  ],
-  "src/pages/about.md": [
-    "/assets/about-5cd85ecd.js"
+  "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
+    "/assets/virtual_pwa-register-5e161cc6.js"
   ],
   "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_...all_-843fcc2b.js"
+    "/assets/_...all_-26addc9e.js"
   ],
   "src/pages/[...all].vue": [
-    "/assets/_...all_-843fcc2b.js"
+    "/assets/_...all_-26addc9e.js"
+  ],
+  "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/404-0fac88bb.js"
+  ],
+  "src/layouts/404.vue": [
+    "/assets/404-0fac88bb.js"
   ],
   "src/pages/README.md": [
-    "/assets/README-d96e249f.js"
+    "/assets/README-824e7ce4.js"
+  ],
+  "src/pages/about.md": [
+    "/assets/about-6dcb9f5e.js"
   ],
   "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_name_-7eabf7ef.js"
+    "/assets/_name_-47f949b2.js"
   ],
   "src/pages/hi/[name].vue": [
-    "/assets/_name_-7eabf7ef.js"
+    "/assets/_name_-47f949b2.js"
   ],
   "node_modules/.pnpm/workbox-window@6.5.4/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
     "/assets/workbox-window.prod.es5-295a6886.js"
