@@ -79,46 +79,46 @@ define(['./workbox-01d9f47c'], (function (workbox) { 'use strict';
    */
   workbox.precacheAndRoute([{
     "url": "about.html",
-    "revision": "c80bf5ce4c74c02326ac1f4d5272fba5"
+    "revision": "b1349ad061e4651e93377d9d5bd6f27e"
   }, {
-    "url": "assets/_...all_-25ab8dce.js",
+    "url": "assets/_...all_-1d6f30d4.js",
     "revision": null
   }, {
-    "url": "assets/_name_-23215e8a.js",
+    "url": "assets/_name_-20a195ce.js",
     "revision": null
   }, {
-    "url": "assets/404-9d501e36.js",
+    "url": "assets/404-c3f2bac0.js",
     "revision": null
   }, {
     "url": "assets/about-4b58cec4.css",
     "revision": null
   }, {
-    "url": "assets/about-b87ce36f.js",
+    "url": "assets/about-519c36ed.js",
     "revision": null
   }, {
-    "url": "assets/app-cb027ea3.js",
+    "url": "assets/app-12880543.js",
     "revision": null
   }, {
-    "url": "assets/home-d573e7bd.js",
+    "url": "assets/home-7d31df4b.js",
     "revision": null
   }, {
-    "url": "assets/index-89f3251e.css",
+    "url": "assets/index-480438c1.css",
     "revision": null
   }, {
-    "url": "assets/README-d429a458.js",
+    "url": "assets/README-b511bbbf.js",
     "revision": null
   }, {
-    "url": "assets/virtual_pwa-register-a2fc0ec2.js",
+    "url": "assets/virtual_pwa-register-2f048f1a.js",
     "revision": null
   }, {
     "url": "assets/workbox-window.prod.es5-295a6886.js",
     "revision": null
   }, {
     "url": "index.html",
-    "revision": "6a3f986ba39421279d2d0fb102b99a35"
+    "revision": "57d15daf5e3145b0d97af25317b52783"
   }, {
     "url": "readme.html",
-    "revision": "0b3cbdfaa0d97a1ca1a7a3603c0fbd12"
+    "revision": "2f89be33624cbf860d309a828bafdd12"
   }, {
     "url": "favicon.svg",
     "revision": "232e364bef2dd12a2093989b2dc5d5f5"
