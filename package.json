@@ -15,6 +15,7 @@
     "up": "taze major -I"
   },
   "dependencies": {
+    "@iconify-json/bi": "^1.1.14",
     "@lehoczky/vue-termynal": "^1.3.0",
     "@unocss/reset": "^0.47.6",
     "@vueuse/core": "^9.6.0",
