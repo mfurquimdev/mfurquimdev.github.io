@@ -1,44 +1,60 @@
 {
-  "src/pages/README.md": [
-    "/assets/README-a8378b3c.js"
-  ],
-  "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_...all_-74a7d4e0.js"
-  ],
-  "src/pages/[...all].vue": [
-    "/assets/_...all_-74a7d4e0.js"
-  ],
   "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
-    "/assets/virtual_pwa-register-77599fbd.js"
-  ],
-  "src/layouts/home.vue": [
-    "/assets/home-f952f858.js"
-  ],
-  "src/stores/user.ts": [
-    "/assets/_name_-4abe17da.js"
-  ],
-  "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_name_-4abe17da.js"
-  ],
-  "src/pages/hi/[name].vue": [
-    "/assets/_name_-4abe17da.js"
+    "/assets/virtual_pwa-register-d1cbd4d9.js"
   ],
   "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-0c5a7921.js"
+    "/assets/404-5fa2a096.js"
   ],
   "src/layouts/404.vue": [
-    "/assets/404-0c5a7921.js"
+    "/assets/404-5fa2a096.js"
+  ],
+  "src/layouts/home.vue": [
+    "/assets/home-8aecf79e.js"
+  ],
+  "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/_...all_-1aa59ed6.js"
+  ],
+  "src/pages/[...all].vue": [
+    "/assets/_...all_-1aa59ed6.js"
+  ],
+  "src/pages/README.md": [
+    "/assets/README-bab25d2e.js"
+  ],
+  "src/stores/user.ts": [
+    "/assets/_name_-6d3faa9a.js"
+  ],
+  "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/_name_-6d3faa9a.js"
+  ],
+  "src/pages/hi/[name].vue": [
+    "/assets/_name_-6d3faa9a.js"
   ],
   "node_modules/.pnpm/workbox-window@6.5.4/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
     "/assets/workbox-window.prod.es5-295a6886.js"
   ],
+  "src/components/Grid.vue?vue&type=style&index=0&lang.css": [
+    "/assets/about-27a2f695.js",
+    "/assets/about-daa33eea.css"
+  ],
+  "src/components/Grid.vue": [
+    "/assets/about-27a2f695.js",
+    "/assets/about-daa33eea.css"
+  ],
+  "src/components/TheIcons.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/about-27a2f695.js",
+    "/assets/about-daa33eea.css"
+  ],
+  "src/components/TheIcons.vue": [
+    "/assets/about-27a2f695.js",
+    "/assets/about-daa33eea.css"
+  ],
   "src/pages/about.md?vue&type=style&index=0&scoped=e91269a1&lang.css": [
-    "/assets/about-395d17ee.js",
-    "/assets/about-4b58cec4.css"
+    "/assets/about-27a2f695.js",
+    "/assets/about-daa33eea.css"
   ],
   "src/pages/about.md": [
-    "/assets/about-395d17ee.js",
-    "/assets/about-4b58cec4.css"
+    "/assets/about-27a2f695.js",
+    "/assets/about-daa33eea.css"
   ],
   "\u0000vite/modulepreload-polyfill": [],
   "locales/en.yml": [],
@@ -83,11 +99,14 @@
   "node_modules/.pnpm/vite-ssg@0.22.1_sgsf6uhunmr36zwbcfhkgzqpdu/node_modules/vite-ssg/dist/shared/vite-ssg.a009fbf1.mjs": [],
   "node_modules/.pnpm/vite-ssg@0.22.1_sgsf6uhunmr36zwbcfhkgzqpdu/node_modules/vite-ssg/dist/shared/vite-ssg.5912142e.mjs": [],
   "node_modules/.pnpm/vite-ssg@0.22.1_sgsf6uhunmr36zwbcfhkgzqpdu/node_modules/vite-ssg/dist/index.mjs": [],
+  "src/components/Credits.vue?vue&type=script&setup=true&lang.ts": [],
+  "src/components/Credits.vue?vue&type=style&index=0&scoped=06452fde&lang.css": [],
+  "\u0000plugin-vue:export-helper": [],
+  "src/components/Credits.vue": [],
   "node_modules/.pnpm/@vueuse+shared@9.6.0_vue@3.2.45/node_modules/@vueuse/shared/index.mjs": [],
   "node_modules/.pnpm/@vueuse+core@9.6.0_vue@3.2.45/node_modules/@vueuse/core/index.mjs": [],
   "src/composables/dark.ts": [],
   "src/components/TheFooter.vue?vue&type=script&setup=true&lang.ts": [],
-  "\u0000plugin-vue:export-helper": [],
   "src/components/TheFooter.vue": [],
   "src/layouts/default.vue": [],
   "../../../../../@vite-plugin-vue-layouts/generated-layouts": [],
@@ -95,9 +114,6 @@
   "node_modules/.pnpm/@lehoczky+vue-termynal@1.3.0_vue@3.2.45/node_modules/@lehoczky/vue-termynal/dist/vue-termynal.mjs": [],
   "src/App.vue?vue&type=script&setup=true&lang.ts": [],
   "src/App.vue": [],
-  "../../../../../plugin-define-model/use-vmodel": [],
-  "src/components/TheInput.vue?vue&type=script&setup=true&lang.ts": [],
-  "src/components/TheInput.vue": [],
   "src/pages/index.vue?vue&type=script&setup=true&lang.ts": [],
   "../../../../../@vite-plugin-pages/route-block": [],
   "src/pages/index.vue": [],
