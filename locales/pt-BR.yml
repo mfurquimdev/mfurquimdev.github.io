@@ -6,6 +6,8 @@ button:
   toggle_dark: Alternar modo escuro
   toggle_langs: Mudar de idioma
 intro:
+  template: Feito com
+  title: Site em construção
   desc: Modelo Opinativo de Partida de Vite
   dynamic-route: Demonstração de rota dinâmica
   hi: Olá, {name}!

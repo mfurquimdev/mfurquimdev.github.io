@@ -62,7 +62,13 @@ export default {
     <tbody>
       <tr v-for="entry in filteredData">
         <td v-for="key in columns">
-          {{entry[key]}}
+          <div v-if="key == 'icon'">
+            <div v-html="entry[key]">
+            </div>
+          </div>
+          <div v-else>
+            {{entry[key]}}
+          </div>
         </td>
       </tr>
     </tbody>
@@ -75,17 +81,19 @@ table {
   border: 2px solid #D8DEE9;
   border-radius: 6px;
   background-color: #ECEFF4;
+  width: 100%;
 }
 
 th {
-  background-color: #42b983;
-  color: rgba(255, 255, 255, 0.66);
+  background-color: #2E3440;
+  color: #D8DEE9;
   cursor: pointer;
   user-select: none;
 }
 
 td {
-  background-color: #f9f9f9;
+  background-color: #3B4252;
+  width: 1%;
 }
 
 th,
@@ -95,7 +103,7 @@ td {
 }
 
 th.active {
-  color: #fff;
+  color: #F7F9FB;
 }
 
 th.active .arrow {
@@ -114,12 +122,12 @@ th.active .arrow {
 .arrow.asc {
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid #FBFBFC;
 }
 
 .arrow.dsc {
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-top: 4px solid #fff;
+  border-top: 4px solid #FBFBFC;
 }
 </style>
