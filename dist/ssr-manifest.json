@@ -1,18 +1,24 @@
 {
+  "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
+    "/assets/virtual_pwa-register-d6912df1.js"
+  ],
   "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/404-637f7bf5.js"
   ],
   "src/layouts/404.vue": [
     "/assets/404-637f7bf5.js"
   ],
+  "src/layouts/home.vue": [
+    "/assets/home-3ad4ec58.js"
+  ],
+  "src/pages/README.md": [
+    "/assets/README-638b644a.js"
+  ],
   "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
     "/assets/_...all_-91fdae75.js"
   ],
   "src/pages/[...all].vue": [
     "/assets/_...all_-91fdae75.js"
-  ],
-  "src/pages/README.md": [
-    "/assets/README-638b644a.js"
   ],
   "src/stores/user.ts": [
     "/assets/_name_-0b260eca.js"
@@ -23,14 +29,8 @@
   "src/pages/hi/[name].vue": [
     "/assets/_name_-0b260eca.js"
   ],
-  "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
-    "/assets/virtual_pwa-register-d6912df1.js"
-  ],
   "node_modules/.pnpm/workbox-window@6.5.4/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
     "/assets/workbox-window.prod.es5-295a6886.js"
-  ],
-  "src/layouts/home.vue": [
-    "/assets/home-3ad4ec58.js"
   ],
   "src/components/Grid.vue?vue&type=style&index=0&lang.css": [
     "/assets/about-139e0829.js",
