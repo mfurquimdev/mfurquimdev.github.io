@@ -79,46 +79,46 @@ define(['./workbox-01d9f47c'], (function (workbox) { 'use strict';
    */
   workbox.precacheAndRoute([{
     "url": "about.html",
-    "revision": "be5126c866821076aeacf4687f42f77b"
+    "revision": "dc590cad152363a2027d249915e12015"
   }, {
-    "url": "assets/_...all_-1aa59ed6.js",
+    "url": "assets/_...all_-91fdae75.js",
     "revision": null
   }, {
-    "url": "assets/_name_-6d3faa9a.js",
+    "url": "assets/_name_-0b260eca.js",
     "revision": null
   }, {
-    "url": "assets/404-5fa2a096.js",
+    "url": "assets/404-637f7bf5.js",
     "revision": null
   }, {
-    "url": "assets/about-27a2f695.js",
+    "url": "assets/about-139e0829.js",
     "revision": null
   }, {
     "url": "assets/about-daa33eea.css",
     "revision": null
   }, {
-    "url": "assets/app-c538f20d.js",
+    "url": "assets/app-8aa1fa01.js",
     "revision": null
   }, {
-    "url": "assets/home-8aecf79e.js",
+    "url": "assets/home-3ad4ec58.js",
     "revision": null
   }, {
     "url": "assets/index-3028ed97.css",
     "revision": null
   }, {
-    "url": "assets/README-bab25d2e.js",
+    "url": "assets/README-638b644a.js",
     "revision": null
   }, {
-    "url": "assets/virtual_pwa-register-d1cbd4d9.js",
+    "url": "assets/virtual_pwa-register-d6912df1.js",
     "revision": null
   }, {
     "url": "assets/workbox-window.prod.es5-295a6886.js",
     "revision": null
   }, {
     "url": "index.html",
-    "revision": "10ece71685b48cde921348e5ab2e1100"
+    "revision": "90d7ca47e1164464925adaeec425fb61"
   }, {
     "url": "readme.html",
-    "revision": "e0169d67dde0032b7b829b72df7c0819"
+    "revision": "bb1b23ed72c31a13192b174a0e0ff0e9"
   }, {
     "url": "favicon.svg",
     "revision": "232e364bef2dd12a2093989b2dc5d5f5"
