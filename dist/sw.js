@@ -79,55 +79,55 @@ define(['./workbox-01d9f47c'], (function (workbox) { 'use strict';
    */
   workbox.precacheAndRoute([{
     "url": "about.html",
-    "revision": "312d6dcfa25e53fbcd97a9e40721ffeb"
+    "revision": "b373450e09758162eb58d2cbbb4c3e4d"
   }, {
-    "url": "assets/_...all_-38b7f6f3.js",
+    "url": "assets/_...all_-b45ea958.js",
     "revision": null
   }, {
-    "url": "assets/_name_-deda75d3.js",
+    "url": "assets/_name_-a9d8b456.js",
     "revision": null
   }, {
-    "url": "assets/404-3773a286.js",
-    "revision": null
-  }, {
-    "url": "assets/about-45fd3054.js",
+    "url": "assets/404-fa96a7e4.js",
     "revision": null
   }, {
     "url": "assets/about-4b58cec4.css",
     "revision": null
   }, {
-    "url": "assets/app-b360c42c.js",
+    "url": "assets/about-4f372758.js",
     "revision": null
   }, {
-    "url": "assets/home-e273e7af.js",
+    "url": "assets/app-d3664ffe.js",
     "revision": null
   }, {
-    "url": "assets/icons-3089a406.js",
+    "url": "assets/home-0ad72ec4.js",
+    "revision": null
+  }, {
+    "url": "assets/icons-58cd2b8b.js",
     "revision": null
   }, {
     "url": "assets/icons-8074b22e.css",
     "revision": null
   }, {
-    "url": "assets/index-4d1af5e6.css",
+    "url": "assets/index-e2ab9b34.css",
     "revision": null
   }, {
-    "url": "assets/README-bc88012c.js",
+    "url": "assets/README-2af931f9.js",
     "revision": null
   }, {
-    "url": "assets/virtual_pwa-register-d199b4dd.js",
+    "url": "assets/virtual_pwa-register-c2097d05.js",
     "revision": null
   }, {
     "url": "assets/workbox-window.prod.es5-295a6886.js",
     "revision": null
   }, {
     "url": "icons.html",
-    "revision": "0a5b0286bf2dd1906df374e4c4d498c0"
+    "revision": "adafe21d93453805696df9b7e92809af"
   }, {
     "url": "index.html",
-    "revision": "11f49c021c8dad3ff934e7333828a412"
+    "revision": "c2ed5dc2dd1e5e58a99c359321835adf"
   }, {
     "url": "readme.html",
-    "revision": "91ed254c17c17f1f934ef754ee23d8da"
+    "revision": "165329cf408ed90e403ab4650c35fc00"
   }, {
     "url": "favicon.svg",
     "revision": "232e364bef2dd12a2093989b2dc5d5f5"

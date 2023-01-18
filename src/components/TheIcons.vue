@@ -2,6 +2,10 @@
 const searchQuery = ref('')
 const gridColumns = ['type', 'name', 'icon']
 const gridData = [
+{name: 'cpu-2',
+type: 'device-cpu',
+icon: '<div i-tabler-cpu-2 class="text-4xl m-auto" />'},
+
 {name: 'aspect-ratio',
 type: 'screen',
 icon: '<div i-bi-aspect-ratio class="text-4xl m-auto" />'},
