@@ -1,0 +1,1 @@
+import{d as n,a as s,o as a,c as _,t as c,f as r,g as f,v as e}from"./app-d3664ffe.js";const o=n({__name:"[...all]",setup(l){const{t}=s();return(u,i)=>(a(),_("div",null,c(r(t)("not-found")),1))}});typeof e=="function"&&e(o);const p=f(o,[["__file","/home/mfkn/projects/mfurquim/mfurquimdev.github.io/src/pages/[...all].vue"]]);export{p as default};
