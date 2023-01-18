@@ -79,46 +79,55 @@ define(['./workbox-01d9f47c'], (function (workbox) { 'use strict';
    */
   workbox.precacheAndRoute([{
     "url": "about.html",
-    "revision": "dc590cad152363a2027d249915e12015"
+    "revision": "312d6dcfa25e53fbcd97a9e40721ffeb"
   }, {
-    "url": "assets/_...all_-91fdae75.js",
+    "url": "assets/_...all_-38b7f6f3.js",
     "revision": null
   }, {
-    "url": "assets/_name_-0b260eca.js",
+    "url": "assets/_name_-deda75d3.js",
     "revision": null
   }, {
-    "url": "assets/404-637f7bf5.js",
+    "url": "assets/404-3773a286.js",
     "revision": null
   }, {
-    "url": "assets/about-139e0829.js",
+    "url": "assets/about-45fd3054.js",
     "revision": null
   }, {
-    "url": "assets/about-daa33eea.css",
+    "url": "assets/about-4b58cec4.css",
     "revision": null
   }, {
-    "url": "assets/app-8aa1fa01.js",
+    "url": "assets/app-b360c42c.js",
     "revision": null
   }, {
-    "url": "assets/home-3ad4ec58.js",
+    "url": "assets/home-e273e7af.js",
     "revision": null
   }, {
-    "url": "assets/index-3028ed97.css",
+    "url": "assets/icons-3089a406.js",
     "revision": null
   }, {
-    "url": "assets/README-638b644a.js",
+    "url": "assets/icons-8074b22e.css",
     "revision": null
   }, {
-    "url": "assets/virtual_pwa-register-d6912df1.js",
+    "url": "assets/index-4d1af5e6.css",
+    "revision": null
+  }, {
+    "url": "assets/README-bc88012c.js",
+    "revision": null
+  }, {
+    "url": "assets/virtual_pwa-register-d199b4dd.js",
     "revision": null
   }, {
     "url": "assets/workbox-window.prod.es5-295a6886.js",
     "revision": null
   }, {
+    "url": "icons.html",
+    "revision": "0a5b0286bf2dd1906df374e4c4d498c0"
+  }, {
     "url": "index.html",
-    "revision": "90d7ca47e1164464925adaeec425fb61"
+    "revision": "11f49c021c8dad3ff934e7333828a412"
   }, {
     "url": "readme.html",
-    "revision": "bb1b23ed72c31a13192b174a0e0ff0e9"
+    "revision": "91ed254c17c17f1f934ef754ee23d8da"
   }, {
     "url": "favicon.svg",
     "revision": "232e364bef2dd12a2093989b2dc5d5f5"

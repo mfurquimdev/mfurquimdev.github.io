@@ -1,60 +1,64 @@
 {
-  "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
-    "/assets/virtual_pwa-register-d6912df1.js"
-  ],
-  "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-637f7bf5.js"
-  ],
-  "src/layouts/404.vue": [
-    "/assets/404-637f7bf5.js"
-  ],
-  "src/layouts/home.vue": [
-    "/assets/home-3ad4ec58.js"
-  ],
   "src/pages/README.md": [
-    "/assets/README-638b644a.js"
+    "/assets/README-bc88012c.js"
   ],
   "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_...all_-91fdae75.js"
+    "/assets/_...all_-38b7f6f3.js"
   ],
   "src/pages/[...all].vue": [
-    "/assets/_...all_-91fdae75.js"
+    "/assets/_...all_-38b7f6f3.js"
   ],
   "src/stores/user.ts": [
-    "/assets/_name_-0b260eca.js"
+    "/assets/_name_-deda75d3.js"
   ],
   "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_name_-0b260eca.js"
+    "/assets/_name_-deda75d3.js"
   ],
   "src/pages/hi/[name].vue": [
-    "/assets/_name_-0b260eca.js"
+    "/assets/_name_-deda75d3.js"
+  ],
+  "src/layouts/home.vue": [
+    "/assets/home-e273e7af.js"
+  ],
+  "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
+    "/assets/virtual_pwa-register-d199b4dd.js"
+  ],
+  "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/404-3773a286.js"
+  ],
+  "src/layouts/404.vue": [
+    "/assets/404-3773a286.js"
   ],
   "node_modules/.pnpm/workbox-window@6.5.4/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
     "/assets/workbox-window.prod.es5-295a6886.js"
   ],
-  "src/components/Grid.vue?vue&type=style&index=0&lang.css": [
-    "/assets/about-139e0829.js",
-    "/assets/about-daa33eea.css"
-  ],
-  "src/components/Grid.vue": [
-    "/assets/about-139e0829.js",
-    "/assets/about-daa33eea.css"
-  ],
-  "src/components/TheIcons.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/about-139e0829.js",
-    "/assets/about-daa33eea.css"
-  ],
-  "src/components/TheIcons.vue": [
-    "/assets/about-139e0829.js",
-    "/assets/about-daa33eea.css"
-  ],
   "src/pages/about.md?vue&type=style&index=0&scoped=e91269a1&lang.css": [
-    "/assets/about-139e0829.js",
-    "/assets/about-daa33eea.css"
+    "/assets/about-45fd3054.js",
+    "/assets/about-4b58cec4.css"
   ],
   "src/pages/about.md": [
-    "/assets/about-139e0829.js",
-    "/assets/about-daa33eea.css"
+    "/assets/about-45fd3054.js",
+    "/assets/about-4b58cec4.css"
+  ],
+  "src/components/Grid.vue?vue&type=style&index=0&lang.css": [
+    "/assets/icons-3089a406.js",
+    "/assets/icons-8074b22e.css"
+  ],
+  "src/components/Grid.vue": [
+    "/assets/icons-3089a406.js",
+    "/assets/icons-8074b22e.css"
+  ],
+  "src/components/TheIcons.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/icons-3089a406.js",
+    "/assets/icons-8074b22e.css"
+  ],
+  "src/components/TheIcons.vue": [
+    "/assets/icons-3089a406.js",
+    "/assets/icons-8074b22e.css"
+  ],
+  "src/pages/icons.md": [
+    "/assets/icons-3089a406.js",
+    "/assets/icons-8074b22e.css"
   ],
   "\u0000vite/modulepreload-polyfill": [],
   "locales/en.yml": [],
@@ -103,6 +107,8 @@
   "src/components/Credits.vue?vue&type=style&index=0&scoped=06452fde&lang.css": [],
   "\u0000plugin-vue:export-helper": [],
   "src/components/Credits.vue": [],
+  "src/components/LogoSVG.vue?vue&type=style&index=0&scoped=6014ba0f&lang.css": [],
+  "src/components/LogoSVG.vue": [],
   "node_modules/.pnpm/@vueuse+shared@9.6.0_vue@3.2.45/node_modules/@vueuse/shared/index.mjs": [],
   "node_modules/.pnpm/@vueuse+core@9.6.0_vue@3.2.45/node_modules/@vueuse/core/index.mjs": [],
   "src/composables/dark.ts": [],

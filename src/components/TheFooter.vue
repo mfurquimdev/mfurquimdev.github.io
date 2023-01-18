@@ -9,9 +9,9 @@ const toggleLocales = () => {
 </script>
 
 <template>
-  <nav text-xl mt-6>
+  <nav text-xl mt-6 flex items-center justify-center>
     <RouterLink class="icon-btn mx-2" to="/" :title="t('button.home')">
-      <div i-carbon-campsite />
+    <LogoSVG />
     </RouterLink>
 
     <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
@@ -23,7 +23,7 @@ const toggleLocales = () => {
     </a>
 
     <RouterLink class="icon-btn mx-2" to="/about" :title="t('button.about')">
-      <div i-carbon-dicom-overlay />
+      <div i-bi-person-vcard class="text-2xl m-auto" />
     </RouterLink>
 
     <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/mfurquimdev/" target="_blank" title="GitHub">
