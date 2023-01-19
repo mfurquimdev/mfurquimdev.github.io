@@ -2,6 +2,515 @@
 const searchQuery = ref('')
 const gridColumns = ['type', 'name', 'icon']
 const gridData = [
+
+{name: 'code',
+type: 'code',
+icon: '<div i-tabler-code class="text-4xl m-auto" />'},
+
+{name: 'code-circle-2',
+type: 'code-circle-2',
+icon: '<div i-tabler-code-circle-2 class="text-4xl m-auto" />'},
+
+{name: 'creative-commons',
+type: 'creative-commons',
+icon: '<div i-tabler-creative-commons class="text-4xl m-auto" />'},
+
+{name: 'creative-commons-by',
+type: 'creative-commons-by',
+icon: '<div i-tabler-creative-commons-by class="text-4xl m-auto" />'},
+
+{name: 'creative-commons-zero',
+type: 'creative-commons-zero',
+icon: '<div i-tabler-creative-commons-zero class="text-4xl m-auto" />'},
+
+{name: 'dashboard',
+type: 'dashboard',
+icon: '<div i-tabler-dashboard class="text-4xl m-auto" />'},
+
+{name: 'database',
+type: 'database',
+icon: '<div i-tabler-database class="text-4xl m-auto" />'},
+
+{name: 'device-gamepad',
+type: 'device-gamepad',
+icon: '<div i-tabler-device-gamepad class="text-4xl m-auto" />'},
+
+{name: 'device-watch',
+type: 'device-watch',
+icon: '<div i-tabler-device-watch class="text-4xl m-auto" />'},
+
+{name: 'ease-in-out',
+type: 'ease-in-out',
+icon: '<div i-tabler-ease-in-out class="text-4xl m-auto" />'},
+
+{name: 'error-404',
+type: 'error-404',
+icon: '<div i-tabler-error-404 class="text-4xl m-auto" />'},
+
+{name: 'exchange',
+type: 'exchange',
+icon: '<div i-tabler-exchange class="text-4xl m-auto" />'},
+
+{name: 'git-branch',
+type: 'git-branch',
+icon: '<div i-tabler-git-branch class="text-4xl m-auto" />'},
+
+{name: 'git-branch-deleted',
+type: 'git-branch-deleted',
+icon: '<div i-tabler-git-branch-deleted class="text-4xl m-auto" />'},
+
+{name: 'git-cherry-pick',
+type: 'git-cherry-pick',
+icon: '<div i-tabler-git-cherry-pick class="text-4xl m-auto" />'},
+
+{name: 'git-commit',
+type: 'git-commit',
+icon: '<div i-tabler-git-commit class="text-4xl m-auto" />'},
+
+{name: 'git-compare',
+type: 'git-compare',
+icon: '<div i-tabler-git-compare class="text-4xl m-auto" />'},
+
+{name: 'git-fork',
+type: 'git-fork',
+icon: '<div i-tabler-git-fork class="text-4xl m-auto" />'},
+
+{name: 'git-merge',
+type: 'git-merge',
+icon: '<div i-tabler-git-merge class="text-4xl m-auto" />'},
+
+{name: 'git-pull-request',
+type: 'git-pull-request',
+icon: '<div i-tabler-git-pull-request class="text-4xl m-auto" />'},
+
+{name: 'git-pull-request-closed',
+type: 'git-pull-request-closed',
+icon: '<div i-tabler-git-pull-request-closed class="text-4xl m-auto" />'},
+
+{name: 'git-pull-request-draft',
+type: 'git-pull-request-draft',
+icon: '<div i-tabler-git-pull-request-draft class="text-4xl m-auto" />'},
+
+{name: 'math-symbols',
+type: 'math-symbols',
+icon: '<div i-tabler-math-symbols class="text-4xl m-auto" />'},
+
+{name: 'route',
+type: 'route',
+icon: '<div i-tabler-route class="text-4xl m-auto" />'},
+
+{name: 'router',
+type: 'router',
+icon: '<div i-tabler-router class="text-4xl m-auto" />'},
+
+{name: 's-turn-right',
+type: 's-turn-right',
+icon: '<div i-tabler-s-turn-right class="text-4xl m-auto" />'},
+
+{name: 'school',
+type: 'school',
+icon: '<div i-tabler-school class="text-4xl m-auto" />'},
+
+{name: 'server-2',
+type: 'server-2',
+icon: '<div i-tabler-server-2 class="text-4xl m-auto" />'},
+
+{name: 'settings',
+type: 'settings',
+icon: '<div i-tabler-settings class="text-4xl m-auto" />'},
+
+{name: 'separator',
+type: 'separator',
+icon: '<div i-tabler-separator class="text-4xl m-auto" />'},
+
+{name: 'timeline-event',
+type: 'timeline-event',
+icon: '<div i-tabler-timeline-event class="text-4xl m-auto" />'},
+
+{name: 'tools',
+type: 'tools',
+icon: '<div i-tabler-tools class="text-4xl m-auto" />'},
+
+{name: 'tooltip',
+type: 'tooltip',
+icon: '<div i-tabler-tooltip class="text-4xl m-auto" />'},
+
+{name: 'variable',
+type: 'variable',
+icon: '<div i-tabler-variable class="text-4xl m-auto" />'},
+
+{name: 'zoom-question',
+type: 'zoom-question',
+icon: '<div i-tabler-zoom-question class="text-4xl m-auto" />'},
+
+
+{name: 'playlist',
+type: 'color-playlist',
+icon: '<div i-tabler-playlist class="text-4xl m-auto" />'},
+
+{name: 'palette',
+type: 'color-palette',
+icon: '<div i-tabler-palette class="text-4xl m-auto" />'},
+
+{name: 'notebook',
+type: 'notebook',
+icon: '<div i-tabler-notebook class="text-4xl m-auto" />'},
+
+{name: 'notes',
+type: 'notes',
+icon: '<div i-tabler-notes class="text-4xl m-auto" />'},
+
+{name: 'at',
+type: 'at',
+icon: '<div i-tabler-at class="text-4xl m-auto" />'},
+
+{name: 'album',
+type: 'album',
+icon: '<div i-tabler-album class="text-4xl m-auto" />'},
+
+{name: 'alert-triangle',
+type: 'alert-triangle',
+icon: '<div i-tabler-alert-triangle class="text-4xl m-auto" />'},
+
+{name: 'ampersand',
+type: 'ampersand',
+icon: '<div i-tabler-ampersand class="text-4xl m-auto" />'},
+
+{name: 'antenna',
+type: 'antenna',
+icon: '<div i-tabler-antenna class="text-4xl m-auto" />'},
+
+{name: 'api',
+type: 'api',
+icon: '<div i-tabler-api class="text-4xl m-auto" />'},
+
+{name: 'arrow-back',
+type: 'arrow-back',
+icon: '<div i-tabler-arrow-back class="text-4xl m-auto" />'},
+
+{name: 'arrow-forward',
+type: 'arrow-forward',
+icon: '<div i-tabler-arrow-forward class="text-4xl m-auto" />'},
+
+{name: 'article',
+type: 'article',
+icon: '<div i-tabler-article class="text-4xl m-auto" />'},
+
+{name: 'award',
+type: 'award',
+icon: '<div i-tabler-award class="text-4xl m-auto" />'},
+
+{name: 'ballpen',
+type: 'ballpen',
+icon: '<div i-tabler-ballpen class="text-4xl m-auto" />'},
+
+{name: 'blockquote',
+type: 'blockquote',
+icon: '<div i-tabler-blockquote class="text-4xl m-auto" />'},
+
+{name: 'books',
+type: 'books',
+icon: '<div i-tabler-books class="text-4xl m-auto" />'},
+
+{name: 'bookmark',
+type: 'bookmark',
+icon: '<div i-tabler-bookmark class="text-4xl m-auto" />'},
+
+{name: 'box-seam',
+type: 'box-seam',
+icon: '<div i-tabler-box-seam class="text-4xl m-auto" />'},
+
+{name: 'braces',
+type: 'braces',
+icon: '<div i-tabler-braces class="text-4xl m-auto" />'},
+
+{name: 'brand-cpp',
+type: 'brand-cpp',
+icon: '<div i-tabler-brand-cpp class="text-4xl m-auto" />'},
+
+{name: 'brand-css3',
+type: 'brand-css3',
+icon: '<div i-tabler-brand-css3 class="text-4xl m-auto" />'},
+
+{name: 'brand-docker',
+type: 'brand-docker',
+icon: '<div i-tabler-brand-docker class="text-4xl m-auto" />'},
+
+{name: 'brand-git',
+type: 'brand-git',
+icon: '<div i-tabler-brand-git class="text-4xl m-auto" />'},
+
+{name: 'brand-github',
+type: 'brand-github',
+icon: '<div i-tabler-brand-github class="text-4xl m-auto" />'},
+
+{name: 'brand-html5',
+type: 'brand-html5',
+icon: '<div i-tabler-brand-html5 class="text-4xl m-auto" />'},
+
+{name: 'brand-javascript',
+type: 'brand-javascript',
+icon: '<div i-tabler-brand-javascript class="text-4xl m-auto" />'},
+
+{name: 'brand-mysql',
+type: 'brand-mysql',
+icon: '<div i-tabler-brand-mysql class="text-4xl m-auto" />'},
+
+{name: 'brand-netflix',
+type: 'brand-netflix',
+icon: '<div i-tabler-brand-netflix class="text-4xl m-auto" />'},
+
+{name: 'brand-open-source',
+type: 'brand-open-source',
+icon: '<div i-tabler-brand-open-source class="text-4xl m-auto" />'},
+
+{name: 'brand-python',
+type: 'brand-python',
+icon: '<div i-tabler-brand-python class="text-4xl m-auto" />'},
+
+{name: 'brand-spotify',
+type: 'brand-spotify',
+icon: '<div i-tabler-brand-spotify class="text-4xl m-auto" />'},
+
+{name: 'brand-ted',
+type: 'brand-ted',
+icon: '<div i-tabler-brand-ted class="text-4xl m-auto" />'},
+
+{name: 'brand-telegram',
+type: 'brand-telegram',
+icon: '<div i-tabler-brand-telegram class="text-4xl m-auto" />'},
+
+{name: 'brand-twitter',
+type: 'brand-twitter',
+icon: '<div i-tabler-brand-twitter class="text-4xl m-auto" />'},
+
+{name: 'brush',
+type: 'brush',
+icon: '<div i-tabler-brush class="text-4xl m-auto" />'},
+
+{name: 'bucket',
+type: 'bucket',
+icon: '<div i-tabler-bucket class="text-4xl m-auto" />'},
+
+{name: 'bug',
+type: 'bug',
+icon: '<div i-tabler-bug class="text-4xl m-auto" />'},
+
+{name: 'calendar',
+type: 'calendar',
+icon: '<div i-tabler-calendar class="text-4xl m-auto" />'},
+
+{name: 'calendar-due',
+type: 'calendar-due',
+icon: '<div i-tabler-calendar-due class="text-4xl m-auto" />'},
+
+{name: 'calendar-event',
+type: 'calendar-event',
+icon: '<div i-tabler-calendar-event class="text-4xl m-auto" />'},
+
+{name: 'calendar-minus',
+type: 'calendar-minus',
+icon: '<div i-tabler-calendar-minus class="text-4xl m-auto" />'},
+
+{name: 'calendar-plus',
+type: 'calendar-plus',
+icon: '<div i-tabler-calendar-plus class="text-4xl m-auto" />'},
+
+{name: 'calendar-time',
+type: 'calendar-time',
+icon: '<div i-tabler-calendar-time class="text-4xl m-auto" />'},
+
+{name: 'calendar-stats',
+type: 'calendar-stats',
+icon: '<div i-tabler-calendar-stats class="text-4xl m-auto" />'},
+
+{name: 'cell',
+type: 'hexagon',
+icon: '<div i-tabler-cell class="text-4xl m-auto" />'},
+
+{name: 'hexagons',
+type: 'hexagon',
+icon: '<div i-tabler-hexagons class="text-4xl m-auto" />'},
+
+{name: 'hexagon',
+type: 'hexagon',
+icon: '<div i-tabler-hexagon class="text-4xl m-auto" />'},
+
+{name: 'keyboard',
+type: 'device-keyboard',
+icon: '<div i-tabler-keyboard class="text-4xl m-auto" />'},
+
+{name: 'mouse',
+type: 'device-mouse',
+icon: '<div i-tabler-mouse class="text-4xl m-auto" />'},
+
+{name: 'lambda',
+type: 'lambda',
+icon: '<div i-tabler-lambda class="text-4xl m-auto" />'},
+
+{name: 'needle',
+type: 'needle',
+icon: '<div i-tabler-needle class="text-4xl m-auto" />'},
+
+{name: 'needle-thread',
+type: 'needle-thread',
+icon: '<div i-tabler-needle-thread class="text-4xl m-auto" />'},
+
+{name: 'link',
+type: 'link',
+icon: '<div i-tabler-link class="text-4xl m-auto" />'},
+
+{name: 'line-dashed',
+type: 'line-dashed',
+icon: '<div i-tabler-line-dashed class="text-4xl m-auto" />'},
+
+{name: 'line-dotted',
+type: 'line-dotted',
+icon: '<div i-tabler-line-dotted class="text-4xl m-auto" />'},
+
+{name: 'certificate',
+type: 'certificate',
+icon: '<div i-tabler-certificate class="text-4xl m-auto" />'},
+
+{name: 'certificate-2',
+type: 'certificate-2',
+icon: '<div i-tabler-certificate-2 class="text-4xl m-auto" />'},
+
+{name: 'id',
+type: 'id',
+icon: '<div i-tabler-id class="text-4xl m-auto" />'},
+
+{name: 'language-hiragana',
+type: 'language-hiragana',
+icon: '<div i-tabler-language-hiragana class="text-4xl m-auto" />'},
+
+{name: 'mail',
+type: 'mail',
+icon: '<div i-tabler-mail class="text-4xl m-auto" />'},
+
+{name: 'map-pin',
+type: 'map-pin',
+icon: '<div i-tabler-map-pin class="text-4xl m-auto" />'},
+
+{name: 'markdown',
+type: 'markdown',
+icon: '<div i-tabler-markdown class="text-4xl m-auto" />'},
+
+{name: 'message',
+type: 'message',
+icon: '<div i-tabler-message class="text-4xl m-auto" />'},
+
+{name: 'message-2-code',
+type: 'message-2-code',
+icon: '<div i-tabler-message-2-code class="text-4xl m-auto" />'},
+
+{name: 'moon',
+type: 'moon',
+icon: '<div i-tabler-moon class="text-4xl m-auto" />'},
+
+{name: 'package',
+type: 'package',
+icon: '<div i-tabler-package class="text-4xl m-auto" />'},
+
+{name: 'packages',
+type: 'packages',
+icon: '<div i-tabler-packages class="text-4xl m-auto" />'},
+
+{name: 'pacman',
+type: 'pacman',
+icon: '<div i-tabler-pacman class="text-4xl m-auto" />'},
+
+{name: 'pencil',
+type: 'pencil',
+icon: '<div i-tabler-pencil class="text-4xl m-auto" />'},
+
+{name: 'pilcrow',
+type: 'edit',
+icon: '<div i-tabler-pilcrow class="text-4xl m-auto" />'},
+
+{name: 'plant',
+type: 'plant',
+icon: '<div i-tabler-plant class="text-4xl m-auto" />'},
+
+{name: 'play-card',
+type: 'play-card',
+icon: '<div i-tabler-play-card class="text-4xl m-auto" />'},
+
+{name: 'point',
+type: 'point',
+icon: '<div i-tabler-point class="text-4xl m-auto" />'},
+
+{name: 'prompt',
+type: 'prompt',
+icon: '<div i-tabler-prompt class="text-4xl m-auto" />'},
+
+{name: 'regex',
+type: 'regex',
+icon: '<div i-tabler-regex class="text-4xl m-auto" />'},
+
+{name: 'quote',
+type: 'quote',
+icon: '<div i-tabler-quote class="text-4xl m-auto" />'},
+
+{name: 'ribbon-health',
+type: 'ribbon-health',
+icon: '<div i-tabler-ribbon-health class="text-4xl m-auto" />'},
+
+{name: 'rosette',
+type: 'rosette',
+icon: '<div i-tabler-rosette class="text-4xl m-auto" />'},
+
+{name: 'router',
+type: 'router',
+icon: '<div i-tabler-router class="text-4xl m-auto" />'},
+
+{name: 'section-sign',
+type: 'edit',
+icon: '<div i-tabler-section-sign class="text-4xl m-auto" />'},
+
+{name: 'seeding',
+type: 'seeding',
+icon: '<div i-tabler-seeding class="text-4xl m-auto" />'},
+
+{name: 'source-code',
+type: 'source-code',
+icon: '<div i-tabler-source-code class="text-4xl m-auto" />'},
+
+{name: 'sun',
+type: 'sun',
+icon: '<div i-tabler-sun class="text-4xl m-auto" />'},
+
+{name: 'terminal',
+type: 'terminal',
+icon: '<div i-tabler-terminal class="text-4xl m-auto" />'},
+
+{name: 'terminal-2',
+type: 'terminal-2',
+icon: '<div i-tabler-terminal-2 class="text-4xl m-auto" />'},
+
+{name: 'tex',
+type: 'tex',
+icon: '<div i-tabler-tex class="text-4xl m-auto" />'},
+
+{name: 'timeline-event',
+type: 'timeline-event',
+icon: '<div i-tabler-timeline-event class="text-4xl m-auto" />'},
+
+{name: 'tools',
+type: 'tools',
+icon: '<div i-tabler-tools class="text-4xl m-auto" />'},
+
+{name: 'user',
+type: 'user',
+icon: '<div i-tabler-user class="text-4xl m-auto" />'},
+
+{name: 'user-circle',
+type: 'user-circle',
+icon: '<div i-tabler-user-circle class="text-4xl m-auto" />'},
+
+{name: 'world',
+type: 'world',
+icon: '<div i-tabler-world class="text-4xl m-auto" />'},
 {name: 'cpu-2',
 type: 'device-cpu',
 icon: '<div i-tabler-cpu-2 class="text-4xl m-auto" />'},
