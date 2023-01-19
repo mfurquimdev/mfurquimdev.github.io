@@ -1,63 +1,63 @@
 {
   "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
-    "/assets/virtual_pwa-register-c2097d05.js"
-  ],
-  "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-fa96a7e4.js"
-  ],
-  "src/layouts/404.vue": [
-    "/assets/404-fa96a7e4.js"
-  ],
-  "src/layouts/home.vue": [
-    "/assets/home-0ad72ec4.js"
+    "/assets/virtual_pwa-register-b20a3139.js"
   ],
   "src/pages/README.md": [
-    "/assets/README-2af931f9.js"
+    "/assets/README-22aad2c3.js"
+  ],
+  "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/404-e8679fcc.js"
+  ],
+  "src/layouts/404.vue": [
+    "/assets/404-e8679fcc.js"
   ],
   "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_...all_-b45ea958.js"
+    "/assets/_...all_-839c5a0b.js"
   ],
   "src/pages/[...all].vue": [
-    "/assets/_...all_-b45ea958.js"
-  ],
-  "src/stores/user.ts": [
-    "/assets/_name_-a9d8b456.js"
-  ],
-  "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_name_-a9d8b456.js"
-  ],
-  "src/pages/hi/[name].vue": [
-    "/assets/_name_-a9d8b456.js"
+    "/assets/_...all_-839c5a0b.js"
   ],
   "node_modules/.pnpm/workbox-window@6.5.4/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
     "/assets/workbox-window.prod.es5-295a6886.js"
   ],
+  "src/layouts/home.vue": [
+    "/assets/home-18cd7f63.js"
+  ],
+  "src/stores/user.ts": [
+    "/assets/_name_-0ce2fb1e.js"
+  ],
+  "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/_name_-0ce2fb1e.js"
+  ],
+  "src/pages/hi/[name].vue": [
+    "/assets/_name_-0ce2fb1e.js"
+  ],
   "src/pages/about.md?vue&type=style&index=0&scoped=e91269a1&lang.css": [
-    "/assets/about-4f372758.js",
+    "/assets/about-41841949.js",
     "/assets/about-4b58cec4.css"
   ],
   "src/pages/about.md": [
-    "/assets/about-4f372758.js",
+    "/assets/about-41841949.js",
     "/assets/about-4b58cec4.css"
   ],
   "src/components/Grid.vue?vue&type=style&index=0&lang.css": [
-    "/assets/icons-58cd2b8b.js",
+    "/assets/icons-b83191d3.js",
     "/assets/icons-8074b22e.css"
   ],
   "src/components/Grid.vue": [
-    "/assets/icons-58cd2b8b.js",
+    "/assets/icons-b83191d3.js",
     "/assets/icons-8074b22e.css"
   ],
   "src/components/TheIcons.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/icons-58cd2b8b.js",
+    "/assets/icons-b83191d3.js",
     "/assets/icons-8074b22e.css"
   ],
   "src/components/TheIcons.vue": [
-    "/assets/icons-58cd2b8b.js",
+    "/assets/icons-b83191d3.js",
     "/assets/icons-8074b22e.css"
   ],
   "src/pages/icons.md": [
-    "/assets/icons-58cd2b8b.js",
+    "/assets/icons-b83191d3.js",
     "/assets/icons-8074b22e.css"
   ],
   "\u0000vite/modulepreload-polyfill": [],
@@ -107,8 +107,6 @@
   "src/components/Credits.vue?vue&type=style&index=0&scoped=06452fde&lang.css": [],
   "\u0000plugin-vue:export-helper": [],
   "src/components/Credits.vue": [],
-  "src/components/LogoSVG.vue?vue&type=style&index=0&scoped=6014ba0f&lang.css": [],
-  "src/components/LogoSVG.vue": [],
   "node_modules/.pnpm/@vueuse+shared@9.6.0_vue@3.2.45/node_modules/@vueuse/shared/index.mjs": [],
   "node_modules/.pnpm/@vueuse+core@9.6.0_vue@3.2.45/node_modules/@vueuse/core/index.mjs": [],
   "src/composables/dark.ts": [],

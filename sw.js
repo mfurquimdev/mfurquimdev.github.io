@@ -79,55 +79,55 @@ define(['./workbox-01d9f47c'], (function (workbox) { 'use strict';
    */
   workbox.precacheAndRoute([{
     "url": "about.html",
-    "revision": "b373450e09758162eb58d2cbbb4c3e4d"
+    "revision": "8e2180ed44ea9d9e7f5cebfe27891c11"
   }, {
-    "url": "assets/_...all_-b45ea958.js",
+    "url": "assets/_...all_-839c5a0b.js",
     "revision": null
   }, {
-    "url": "assets/_name_-a9d8b456.js",
+    "url": "assets/_name_-0ce2fb1e.js",
     "revision": null
   }, {
-    "url": "assets/404-fa96a7e4.js",
+    "url": "assets/404-e8679fcc.js",
+    "revision": null
+  }, {
+    "url": "assets/about-41841949.js",
     "revision": null
   }, {
     "url": "assets/about-4b58cec4.css",
     "revision": null
   }, {
-    "url": "assets/about-4f372758.js",
+    "url": "assets/app-2920e440.js",
     "revision": null
   }, {
-    "url": "assets/app-d3664ffe.js",
-    "revision": null
-  }, {
-    "url": "assets/home-0ad72ec4.js",
-    "revision": null
-  }, {
-    "url": "assets/icons-58cd2b8b.js",
+    "url": "assets/home-18cd7f63.js",
     "revision": null
   }, {
     "url": "assets/icons-8074b22e.css",
     "revision": null
   }, {
-    "url": "assets/index-e2ab9b34.css",
+    "url": "assets/icons-b83191d3.js",
     "revision": null
   }, {
-    "url": "assets/README-2af931f9.js",
+    "url": "assets/index-78cebb4f.css",
     "revision": null
   }, {
-    "url": "assets/virtual_pwa-register-c2097d05.js",
+    "url": "assets/README-22aad2c3.js",
+    "revision": null
+  }, {
+    "url": "assets/virtual_pwa-register-b20a3139.js",
     "revision": null
   }, {
     "url": "assets/workbox-window.prod.es5-295a6886.js",
     "revision": null
   }, {
     "url": "icons.html",
-    "revision": "adafe21d93453805696df9b7e92809af"
+    "revision": "812dccddcf4287671c767ad2530bfa4b"
   }, {
     "url": "index.html",
-    "revision": "c2ed5dc2dd1e5e58a99c359321835adf"
+    "revision": "1061e3dae1a610f867173a99c8f6db78"
   }, {
     "url": "readme.html",
-    "revision": "165329cf408ed90e403ab4650c35fc00"
+    "revision": "b9b0ddfb379ebdcc57971e15549cb105"
   }, {
     "url": "favicon.svg",
     "revision": "232e364bef2dd12a2093989b2dc5d5f5"
