@@ -10,29 +10,27 @@ title: 3 Questions You Would Ask in an Interview
 
 <div style="font-weight: 900; font-size: xx-large; text-align: justify">
 
-When applying for jobs,
-I usually imagine how would it be working for that company,
-and I keep a few questions in mind.
+For this video,
+I'll tell you about a few questions I usually keep in mind when I’m applying for jobs.
 
 ---
 
-One of them is:
-How's the routine working for the company?
-
-I try to imagine how would a day or a week be like as an employee.
-What is the size of my team,
-and from whom do I get the requirements for the task.
+One of them is about the routine working for the company.
+What is the size of my team
+and from whom do I get the requirements for the tasks?
 
 ---
 
-Another question to understand the position better is,
+The second question to understand the position even better is,
 from your perspective, what are the biggest challenges I'd face in the role?
 
 ---
 
-Last, but definitely no least, is whether there's a career plan or a growth opportunity,
-and what is the criteria for growing inside the company.
+Last, but definitely not least,
+is whether there's a career plan or a growth opportunity,
+and what are the criteria for growing inside the company.
 
+---
 ---
 ---
 ---

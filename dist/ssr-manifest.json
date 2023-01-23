@@ -1,77 +1,77 @@
 {
-  "src/pages/about2.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/about2-3fd660fa.js"
-  ],
-  "src/pages/about2.vue": [
-    "/assets/about2-3fd660fa.js"
-  ],
   "src/layouts/home.vue": [
-    "/assets/home-71dcba62.js"
-  ],
-  "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_...all_-18cd78da.js"
-  ],
-  "src/pages/[...all].vue": [
-    "/assets/_...all_-18cd78da.js"
+    "/assets/home-ed37b513.js"
   ],
   "src/pages/README.md": [
-    "/assets/README-169aff1a.js"
-  ],
-  "src/pages/technical_challenge.md": [
-    "/assets/technical_challenge-a22d89c8.js"
-  ],
-  "src/stores/user.ts": [
-    "/assets/_name_-2cdb7ac8.js"
-  ],
-  "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_name_-2cdb7ac8.js"
-  ],
-  "src/pages/hi/[name].vue": [
-    "/assets/_name_-2cdb7ac8.js"
+    "/assets/README-217ae06c.js"
   ],
   "src/pages/3_questions.md": [
-    "/assets/3_questions-d633f01c.js"
+    "/assets/3_questions-586d3fa3.js"
   ],
-  "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-6f3bc3c2.js"
+  "src/pages/about2.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/about2-c451edae.js"
   ],
-  "src/layouts/404.vue": [
-    "/assets/404-6f3bc3c2.js"
+  "src/pages/about2.vue": [
+    "/assets/about2-c451edae.js"
   ],
-  "src/pages/about.md": [
-    "/assets/about-90433d04.js"
+  "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/_...all_-b9365151.js"
   ],
-  "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
-    "/assets/virtual_pwa-register-f947a944.js"
+  "src/pages/[...all].vue": [
+    "/assets/_...all_-b9365151.js"
   ],
   "src/pages/tell_about_yourself.md": [
-    "/assets/tell_about_yourself-737090d3.js"
+    "/assets/tell_about_yourself-b818eb57.js"
+  ],
+  "src/pages/technical_challenge.md": [
+    "/assets/technical_challenge-c5f9c3a6.js"
+  ],
+  "src/pages/about.md": [
+    "/assets/about-18bcc9fb.js"
+  ],
+  "src/stores/user.ts": [
+    "/assets/_name_-3311d274.js"
+  ],
+  "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/_name_-3311d274.js"
+  ],
+  "src/pages/hi/[name].vue": [
+    "/assets/_name_-3311d274.js"
+  ],
+  "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
+    "/assets/virtual_pwa-register-8575e111.js"
+  ],
+  "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/404-9dd37832.js"
+  ],
+  "src/layouts/404.vue": [
+    "/assets/404-9dd37832.js"
   ],
   "node_modules/.pnpm/workbox-window@6.5.4/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
     "/assets/workbox-window.prod.es5-295a6886.js"
   ],
   "src/components/Grid.vue?vue&type=style&index=0&lang.css": [
-    "/assets/icons-69b06cb6.js",
+    "/assets/icons-58511c4f.js",
     "/assets/icons-d517a85d.css"
   ],
   "src/components/Grid.vue": [
-    "/assets/icons-69b06cb6.js",
+    "/assets/icons-58511c4f.js",
     "/assets/icons-d517a85d.css"
   ],
   "src/components/TheIcons.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/icons-69b06cb6.js",
+    "/assets/icons-58511c4f.js",
     "/assets/icons-d517a85d.css"
   ],
   "src/components/TheIcons.vue": [
-    "/assets/icons-69b06cb6.js",
+    "/assets/icons-58511c4f.js",
     "/assets/icons-d517a85d.css"
   ],
   "src/pages/icons.md?vue&type=style&index=0&scoped=3e0fbb7d&lang.css": [
-    "/assets/icons-69b06cb6.js",
+    "/assets/icons-58511c4f.js",
     "/assets/icons-d517a85d.css"
   ],
   "src/pages/icons.md": [
-    "/assets/icons-69b06cb6.js",
+    "/assets/icons-58511c4f.js",
     "/assets/icons-d517a85d.css"
   ],
   "\u0000vite/modulepreload-polyfill": [],
@@ -132,7 +132,6 @@
   "node_modules/.pnpm/@lehoczky+vue-termynal@1.3.0_vue@3.2.45/node_modules/@lehoczky/vue-termynal/dist/vue-termynal.mjs": [],
   "src/App.vue?vue&type=script&setup=true&lang.ts": [],
   "src/App.vue": [],
-  "src/pages/index.md": [],
   "src/pages/index.vue?vue&type=script&setup=true&lang.ts": [],
   "../../../../../@vite-plugin-pages/route-block": [],
   "src/pages/index.vue": [],
