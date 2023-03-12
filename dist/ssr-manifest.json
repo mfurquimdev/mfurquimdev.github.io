@@ -1,77 +1,68 @@
 {
-  "src/layouts/home.vue": [
-    "/assets/home-ed37b513.js"
-  ],
   "src/pages/README.md": [
-    "/assets/README-217ae06c.js"
-  ],
-  "src/pages/3_questions.md": [
-    "/assets/3_questions-586d3fa3.js"
+    "/assets/README-eb4734b4.js"
   ],
   "src/pages/about2.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/about2-c451edae.js"
+    "/assets/about2-db84926d.js"
   ],
   "src/pages/about2.vue": [
-    "/assets/about2-c451edae.js"
+    "/assets/about2-db84926d.js"
   ],
   "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_...all_-b9365151.js"
+    "/assets/_...all_-616f8906.js"
   ],
   "src/pages/[...all].vue": [
-    "/assets/_...all_-b9365151.js"
-  ],
-  "src/pages/tell_about_yourself.md": [
-    "/assets/tell_about_yourself-b818eb57.js"
-  ],
-  "src/pages/technical_challenge.md": [
-    "/assets/technical_challenge-c5f9c3a6.js"
+    "/assets/_...all_-616f8906.js"
   ],
   "src/pages/about.md": [
-    "/assets/about-18bcc9fb.js"
-  ],
-  "src/stores/user.ts": [
-    "/assets/_name_-3311d274.js"
-  ],
-  "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_name_-3311d274.js"
-  ],
-  "src/pages/hi/[name].vue": [
-    "/assets/_name_-3311d274.js"
-  ],
-  "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
-    "/assets/virtual_pwa-register-8575e111.js"
+    "/assets/about-c4c8184e.js"
   ],
   "src/layouts/404.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/404-9dd37832.js"
+    "/assets/404-dbea2326.js"
   ],
   "src/layouts/404.vue": [
-    "/assets/404-9dd37832.js"
+    "/assets/404-dbea2326.js"
+  ],
+  "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
+    "/assets/virtual_pwa-register-4fe8961b.js"
+  ],
+  "src/layouts/home.vue": [
+    "/assets/home-1cb2ead5.js"
+  ],
+  "src/stores/user.ts": [
+    "/assets/_name_-7e981ecd.js"
+  ],
+  "src/pages/hi/[name].vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/_name_-7e981ecd.js"
+  ],
+  "src/pages/hi/[name].vue": [
+    "/assets/_name_-7e981ecd.js"
   ],
   "node_modules/.pnpm/workbox-window@6.5.4/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
     "/assets/workbox-window.prod.es5-295a6886.js"
   ],
   "src/components/Grid.vue?vue&type=style&index=0&lang.css": [
-    "/assets/icons-58511c4f.js",
+    "/assets/icons-da21c853.js",
     "/assets/icons-d517a85d.css"
   ],
   "src/components/Grid.vue": [
-    "/assets/icons-58511c4f.js",
+    "/assets/icons-da21c853.js",
     "/assets/icons-d517a85d.css"
   ],
   "src/components/TheIcons.vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/icons-58511c4f.js",
+    "/assets/icons-da21c853.js",
     "/assets/icons-d517a85d.css"
   ],
   "src/components/TheIcons.vue": [
-    "/assets/icons-58511c4f.js",
+    "/assets/icons-da21c853.js",
     "/assets/icons-d517a85d.css"
   ],
   "src/pages/icons.md?vue&type=style&index=0&scoped=3e0fbb7d&lang.css": [
-    "/assets/icons-58511c4f.js",
+    "/assets/icons-da21c853.js",
     "/assets/icons-d517a85d.css"
   ],
   "src/pages/icons.md": [
-    "/assets/icons-58511c4f.js",
+    "/assets/icons-da21c853.js",
     "/assets/icons-d517a85d.css"
   ],
   "\u0000vite/modulepreload-polyfill": [],
@@ -96,7 +87,7 @@
   "node_modules/.pnpm/vue-i18n@9.2.2_vue@3.2.45/node_modules/vue-i18n/dist/vue-i18n.runtime.esm-bundler.js": [],
   "src/modules/i18n.ts": [],
   "\u0000commonjsHelpers.js": [],
-  "\u0000/home/mfkn/projects/mfurquim/mfurquimdev.github.io/node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js?commonjs-module": [],
+  "\u0000/home/mfkn/Projects/mfurquimdev/mfurquimdev.github.io/node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js?commonjs-module": [],
   "node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress/nprogress.js": [],
   "src/modules/nprogress.ts": [],
   "node_modules/.pnpm/vue-demi@0.13.11_vue@3.2.45/node_modules/vue-demi/lib/index.mjs": [],
