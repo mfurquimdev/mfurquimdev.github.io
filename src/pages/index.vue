@@ -13,7 +13,6 @@ const { t } = useI18n()
     </div>
     <p>
       <p>{{ t('intro.title') }}</p>
-      <p>Trying to bring site back to life</p>
     </p>
 
     <div py-4 />

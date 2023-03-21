@@ -79,58 +79,58 @@ define(['./workbox-01d9f47c'], (function (workbox) { 'use strict';
    */
   workbox.precacheAndRoute([{
     "url": "about.html",
-    "revision": "fd46c62f48d18584318f196d04a0861c"
+    "revision": "3077d8c0283895d932136f9bd7fb7c77"
   }, {
     "url": "about2.html",
-    "revision": "c0f663aa938ef2508125da561209058b"
+    "revision": "d837d76a820952c81a91828c5d1a752d"
   }, {
-    "url": "assets/_...all_-616f8906.js",
+    "url": "assets/_...all_-0debabde.js",
     "revision": null
   }, {
-    "url": "assets/_name_-7e981ecd.js",
+    "url": "assets/_name_-f273f8e5.js",
     "revision": null
   }, {
-    "url": "assets/404-dbea2326.js",
+    "url": "assets/404-2390aaff.js",
     "revision": null
   }, {
-    "url": "assets/about-c4c8184e.js",
+    "url": "assets/about-a07db0ce.js",
     "revision": null
   }, {
-    "url": "assets/about2-db84926d.js",
+    "url": "assets/about2-2f8b0842.js",
     "revision": null
   }, {
-    "url": "assets/app-40614864.js",
+    "url": "assets/app-75e40a44.js",
     "revision": null
   }, {
-    "url": "assets/home-1cb2ead5.js",
+    "url": "assets/home-753a1178.js",
+    "revision": null
+  }, {
+    "url": "assets/icons-227b4bbd.js",
     "revision": null
   }, {
     "url": "assets/icons-d517a85d.css",
     "revision": null
   }, {
-    "url": "assets/icons-da21c853.js",
+    "url": "assets/index-cf724b6f.css",
     "revision": null
   }, {
-    "url": "assets/index-94c973da.css",
+    "url": "assets/README-2851a0a1.js",
     "revision": null
   }, {
-    "url": "assets/README-eb4734b4.js",
-    "revision": null
-  }, {
-    "url": "assets/virtual_pwa-register-4fe8961b.js",
+    "url": "assets/virtual_pwa-register-cfe0a72c.js",
     "revision": null
   }, {
     "url": "assets/workbox-window.prod.es5-295a6886.js",
     "revision": null
   }, {
     "url": "icons.html",
-    "revision": "8b9b905d68a7fce87ecbf52c7df7ae88"
+    "revision": "dc3abd83326ca5a8a6153223e5cb1a8b"
   }, {
     "url": "index.html",
-    "revision": "cf176a86417efdfc63da11402b29f17c"
+    "revision": "c90d08814102e6126c37d94d459b9615"
   }, {
     "url": "readme.html",
-    "revision": "496d8cb4ccdb70df20fa7abf8837b09c"
+    "revision": "844aadf0584b9c8568c5b9b05dad78bb"
   }, {
     "url": "favicon.svg",
     "revision": "232e364bef2dd12a2093989b2dc5d5f5"
