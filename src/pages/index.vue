@@ -16,7 +16,6 @@ const { t } = useI18n()
     </p>
 
     <div py-4 />
-
   </div>
 </template>
 
