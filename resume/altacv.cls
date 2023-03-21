@@ -27,7 +27,7 @@
 \LoadClass{extarticle}
 
 \RequirePackage[margin=2cm]{geometry}
-\RequirePackage{fontawesome}
+\RequirePackage{fontawesome5}
 
 %% v1.1: Optionally load academicons
 \if@academicons
@@ -97,7 +97,7 @@
 % \RequirePackage{marginfix}
 
 \setlength{\parindent}{0pt}
-\newcommand{\divider}{\textcolor{divider}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}\bigskip}
+\newcommand{\divider}{\textcolor{divider}{\hdashrule{\linewidth}{0.6pt}{0.5ex}}}
 
 \newenvironment{fullwidth}{%
   \begin{adjustwidth}{}{\dimexpr-\marginparwidth-\marginparsep\relax}}
@@ -149,8 +149,8 @@
 \newcommand{\cvsection}[2][]{%
   \bigskip%
   \ifstrequal{#1}{}{}{\marginpar{\vspace*{\dimexpr1pt-\baselineskip}\raggedright\input{#1}}}%
-  {\color{heading}\LARGE\bfseries\MakeUppercase{#2}}\\[-1ex]%
-  {\color{heading}\rule{\linewidth}{2pt}\par}\medskip
+  {\color{heading}\LARGE\bfseries\MakeUppercase{#2}}\\[-1.5ex]%
+  {\color{heading}\rule{\linewidth}{1pt}\par}\medskip
 }
 
 \newcommand{\cvsubsection}[1]{%
@@ -160,24 +160,32 @@
 
 % v1.1.4: fixes inconsistent font size
 \newcommand{\cvevent}[4]{%
-  {\large\color{emphasis}\bfseries#1\par}
+  % {\large\color{emphasis}\bfseries#1\par}
+  {\large\color{emphasis}\bfseries#1\hfill}
   \smallskip\normalsize
-  \ifstrequal{#2}{}{}{
-  \textbf{\color{accent}#2}\par
-  \smallskip}
-  \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\footnotesize\faCalendarCheckO}\textcolor{NordPolarNight4}{\hspace{0.5em}#3}}}}%
-  \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\footnotesize\faMapMarker}\textcolor{NordPolarNight4}{\hspace{0.5em}#4}}}}\par
+  \ifstrequal{#2}{}{}{\textbf{\color{accent}#2}\par}
+  % \ifstrequal{#2}{}{}{{\makebox[0.3\linewidth][l]{\textbf{\color{accent}#2}\par}}}%
+  \ifstrequal{#3}{}{}{{\small\makebox[0.4\linewidth][l]{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#3}}}}%
+  \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#4}}}}\par
   \smallskip
 }
 
-\newcommand{\cveducation}[4]{%
+\newcommand{\cvpublication}[4]{%
+  {\large\color{emphasis}\bfseries#1\hfill}
+  \smallskip\normalsize
+  \ifstrequal{#2}{}{}{\textbf{\color{accent}#2}\par}
+  \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#3}}}}%
+  \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#4}}}}\par
+  \smallskip
+}
+
+\newcommand{\cveducation}[5]{%
   {\large\color{emphasis}\bfseries#1\par}
   \smallskip\normalsize
-  \ifstrequal{#2}{}{}{
-  \textbf{\color{accent}#2}\par
-  \smallskip}
-  \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\footnotesize\faCalendarCheckO}\textcolor{NordPolarNight4}{\hspace{0.5em}\footnotesize#3}}}}%
-  \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\footnotesize\faMapMarker}\textcolor{NordPolarNight4}{\hspace{0.5em}\footnotesize#4}}}}\par
+  \ifstrequal{#2}{}{}{\textbf{\color{accent}#2}\par}
+  \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}\footnotesize#3}}}}%
+  \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}\footnotesize#4}}}}\par
+  \ifstrequal{#5}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faExchange*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}\footnotesize#5}}}}\par
   \smallskip
 }
 
