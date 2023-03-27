@@ -75,6 +75,7 @@
 \colorlet{body}{NordPolarNight1}
 \colorlet{divider}{NordSnowStorm3}
 
+\colorlet{linux}{NordPolarNight0}
 \colorlet{tech}{NordFrost2}
 \colorlet{description}{NordPolarNight1}
 \colorlet{link}{NordPolarNight4}
