@@ -76,12 +76,14 @@
 \colorlet{divider}{NordSnowStorm3}
 
 \colorlet{linux}{NordPolarNight0}
-\colorlet{tech}{NordFrost2}
+\colorlet{tech}{NordPolarNight1}
+\colorlet{midaccent}{NordFrost2}
 \colorlet{description}{NordPolarNight1}
 \colorlet{link}{NordPolarNight4}
 \colorlet{icons}{NordPolarNight4}
 
-\newcommand{\itemmarker}{{\small\faAngleRight}}
+\newcommand{\itemmarker}{{\small\color{midaccent}\faAngleRight}}
+
 \newcommand{\ratingmarker}{\faCircle}
 
 \RequirePackage{tikz}
@@ -196,7 +198,7 @@
 }
 
 \newcommand{\cvlang}[2]{%
-\textcolor{emphasis}{\textbf{#1}}\hfill{\color{accent}{#2}}
+\textcolor{emphasis}{#1}\hfill{\color{accent}{#2}}
 }
 
 

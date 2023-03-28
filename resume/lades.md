@@ -32,7 +32,15 @@ Enhanced the Intrusion Detection System (IDS) with unsupervised machine learning
 Together with the Brazilian Army,
 created experiments for a distributed processing IDS system, which enhances the Snort capabilities by training an unsupervised machine learning model using K-Means algorithm. 
 
-Wrote more than 30 pages of documentation for a distributed processing system that uses
+Wrote more than 1500 pages of documentation for a distributed processing system that uses
 
 
 Detection of masked malicious packet using network intrusion detection system (IDS) with unsupervised machine learning
+
+Successfully detected masked malicious network packets using K-Means algorithm and distributed processing with Spark and Hadoop
+
+Enhanced the Intrusion Detection System (IDS) with unsupervised machine learning to detect masked malicious network packets
+
+
+
+Configured a Debian server to capture all network packets in promiscuous mode using Wireshark as `.pcaps` and replay them in a controlled environment
