@@ -170,7 +170,7 @@
   % \ifstrequal{#2}{}{}{{\makebox[0.3\linewidth][l]{\textbf{\color{accent}#2}\par}}}%
   \ifstrequal{#3}{}{}{{\small\makebox[0.4\linewidth][l]{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#3}}}}%
   \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#4}}}}\par
-  \smallskip
+  % \smallskip
 }
 
 \newcommand{\cvpublication}[4]{%

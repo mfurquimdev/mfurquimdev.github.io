@@ -7,3 +7,10 @@ Design, implementation and maintainance of more than twenty microservices to est
 - Source code documentation and properly adherence to security guidance and compliance with coding standards.
 
 Improved the performance in writing to a NoSQL database up to 75% by understanding the usage of unlogged batches and separating the data by the partition keys.
+
+
+Code is more maintainable, achieving more than 80% of unit test coverage
+
+
+Improve code maintainability by achieving more than 80% of unit test coverage and refactoring following the SOLID principles, such as dependency inversion.
+
