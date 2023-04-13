@@ -1,18 +1,9 @@
 {
-  "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
-    "/assets/_...all_-0debabde.js"
-  ],
-  "src/pages/[...all].vue": [
-    "/assets/_...all_-0debabde.js"
-  ],
   "src/layouts/home.vue": [
     "/assets/home-753a1178.js"
   ],
-  "src/pages/about.md": [
-    "/assets/about-a07db0ce.js"
-  ],
-  "src/pages/README.md": [
-    "/assets/README-2851a0a1.js"
+  "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
+    "/assets/virtual_pwa-register-cfe0a72c.js"
   ],
   "src/pages/about2.vue?vue&type=script&setup=true&lang.ts": [
     "/assets/about2-2f8b0842.js"
@@ -26,6 +17,15 @@
   "src/layouts/404.vue": [
     "/assets/404-2390aaff.js"
   ],
+  "src/pages/README.md": [
+    "/assets/README-2851a0a1.js"
+  ],
+  "src/pages/[...all].vue?vue&type=script&setup=true&lang.ts": [
+    "/assets/_...all_-0debabde.js"
+  ],
+  "src/pages/[...all].vue": [
+    "/assets/_...all_-0debabde.js"
+  ],
   "src/stores/user.ts": [
     "/assets/_name_-f273f8e5.js"
   ],
@@ -35,8 +35,8 @@
   "src/pages/hi/[name].vue": [
     "/assets/_name_-f273f8e5.js"
   ],
-  "../../../../../@vite-plugin-pwa/virtual:pwa-register": [
-    "/assets/virtual_pwa-register-cfe0a72c.js"
+  "src/pages/about.md": [
+    "/assets/about-a07db0ce.js"
   ],
   "node_modules/.pnpm/workbox-window@6.5.4/node_modules/workbox-window/build/workbox-window.prod.es5.mjs": [
     "/assets/workbox-window.prod.es5-295a6886.js"

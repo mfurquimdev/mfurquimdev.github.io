@@ -124,7 +124,7 @@ define(['./workbox-01d9f47c'], (function (workbox) { 'use strict';
     "revision": null
   }, {
     "url": "icons.html",
-    "revision": "22726dcc8fb917c87f18d2e2b6f5fdb5"
+    "revision": "dc3abd83326ca5a8a6153223e5cb1a8b"
   }, {
     "url": "index.html",
     "revision": "c90d08814102e6126c37d94d459b9615"
