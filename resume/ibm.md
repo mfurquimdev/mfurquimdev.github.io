@@ -10,9 +10,15 @@ Utilized PromQL and Prometheus to create alerts for detecting high throughput, l
 Assisted on the creation of a self-detected services using etcd and a federation of Prometheus
 Assisted in developing self-discovering services by utilizing etcd, consistent hashing and a federation of Prometheus.
 
+Increased observability and 
+
+Enhanced observability of back-end services by integrating Prometheus metrics and visualizing the data through Grafana dashboards.
 
 
+Contributed to the development of self-discovering services by utilizing etcd, consistent hashing and a federation of Prometheus.
 
 
+Improved performance of Prometheus querying by adding custom rules in the first level of the Federation
 
 
+Collaborated alongside multiple teams to enhanced observability of front-end and back-end services

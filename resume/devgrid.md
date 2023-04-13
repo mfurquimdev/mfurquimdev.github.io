@@ -14,3 +14,7 @@ Code is more maintainable, achieving more than 80% of unit test coverage
 
 Improve code maintainability by achieving more than 80% of unit test coverage and refactoring following the SOLID principles, such as dependency inversion.
 
+
+Saved X dollars per month switching our stack from AMD to ARM processors
+
+Achieved up to 65% of hourly cost savings by switching our stack from x64 to ARM processors

@@ -23,6 +23,5 @@ trap "{ ./execute.sh; }" SIGUSR1
 
 while :;
 do
-    echo -n "."
     sleep 1
 done
