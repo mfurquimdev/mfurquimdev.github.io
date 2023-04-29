@@ -15,21 +15,18 @@ const toggleLocales = () => {
     <!-- <LogoSVG /> -->
     </RouterLink>
 
-    <button class="icon-btn mx-1 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
-      <div i="carbon-sun dark:carbon-moon" class="text-2xl m-auto" />
-    </button>
-
-    <a class="icon-btn mx-1" :title="t('button.toggle_langs')" @click="toggleLocales()">
-      <div i-carbon-ibm-watson-language-translator class="text-2xl m-auto" />
-    </a>
-
-    <RouterLink class="icon-btn mx-1" to="/about" :title="t('button.about')">
-      <div i-carbon-user-avatar-filled class="text-2xl m-auto" />
-    </RouterLink>
-
     <a class="icon-btn mx-1" rel="noreferrer" href="https://github.com/mfurquimdev/" target="_blank" title="GitHub">
       <div i-carbon-logo-github class="text-2xl m-auto" />
     </a>
+
+    <a class="icon-btn mx-1" rel="noreferrer" href="https://www.linkedin.com/in/mfurquimdev/" target="_blank" title="GitHub">
+      <div i-carbon-logo-linkedin class="text-2xl m-auto" />
+    </a>
+
+    <a class="icon-btn mx-1" rel="noreferrer" href="https://www.instagram.com/mfurquimdev/" target="_blank" title="GitHub">
+      <div i-carbon-logo-instagram class="text-2xl m-auto" />
+    </a>
+
   </nav>
   <Credits />
 </template>

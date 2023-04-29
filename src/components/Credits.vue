@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-  name: 'IndexPage',
+  name: 'Credits',
 })
 const { t } = useI18n()
 </script>

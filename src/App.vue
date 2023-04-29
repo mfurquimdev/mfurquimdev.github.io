@@ -5,10 +5,10 @@
 useHead({
   title: 'MFurquim Dev',
   meta: [
-    { name: 'description', content: 'Opinionated Vite Starter Template' },
+    { name: 'description', content: 'A personal portifolio' },
     {
       name: 'theme-color',
-      content: computed(() => isDark.value ? '#ff0000' : '#ffffff'),
+      content: computed(() => isDark.value ? '#ff0000' : '#ECEFF4'),
     },
   ],
   link: [

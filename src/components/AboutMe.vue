@@ -8,10 +8,6 @@ const { t } = useI18n()
 
 <template>
 <div class="text-center">
-    <!--<h1>{{ t('about_me.title') }}</h1>-->
-    <h3>{{ t('about_me.subtitle') }}</h3>
-</div>
-<div class="text-center">
     <h2>{{ t('about_me.software_engineering.title') }}</h2>
 </div>
 <div class="text-justify">
