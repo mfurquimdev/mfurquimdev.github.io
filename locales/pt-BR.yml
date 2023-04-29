@@ -24,5 +24,5 @@ about_me:
     item_2: Desenhar a arquitetura do sistema 
     item_3: Implementar o código ciente dos padrões GoF e princípios SOLID
     item_4: Obter cobertura ideal de teste de unidade e integração
-    item_5: Fazer deploy aproveitando o CI/CD
+    item_5: Fazer deploy utilizando CI/CD
 not-found: Não encontrado
