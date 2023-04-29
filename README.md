@@ -1,4 +1,4 @@
 Resume
 ======
 
-[![resume](resume/main.png)](https://www.linkedin.com/in/mfurquimdev/)
+[![resume](resume/resume.png)](https://www.linkedin.com/in/mfurquimdev/)
