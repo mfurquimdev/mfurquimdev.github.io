@@ -108,8 +108,8 @@
 
 \newcommand{\emailsymbol}{\faAt}
 \newcommand{\phonesymbol}{\faPhone}
-\newcommand{\homepagesymbol}{\faGlobe}
-\newcommand{\locationsymbol}{\faMapMarker}
+\newcommand{\homepagesymbol}{\faLink}
+\newcommand{\locationsymbol}{\faMapMarker*}
 \newcommand{\linkedinsymbol}{\faLinkedin}
 \newcommand{\twittersymbol}{\faTwitter}
 \newcommand{\githubsymbol}{\faGithub}
@@ -175,8 +175,9 @@
 
 \newcommand{\cvpublication}[4]{%
   {\large\color{emphasis}\bfseries#1\hfill}
-  \smallskip\normalsize
+  \smallskip\normalsize\par
   \ifstrequal{#2}{}{}{\textbf{\color{accent}#2}\par}
+  \smallskip\par
   \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#3}}}}%
   \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#4}}}}\par
   \smallskip

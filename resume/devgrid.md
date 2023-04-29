@@ -12,9 +12,15 @@ Improved the performance in writing to a NoSQL database up to 75% by understandi
 Code is more maintainable, achieving more than 80% of unit test coverage
 
 
-Improve code maintainability by achieving more than 80% of unit test coverage and refactoring following the SOLID principles, such as dependency inversion.
+Improve code maintainability by adhering to  achieving more than 80% of unit test coverage and refactoring following the SOLID principles, such as dependency inversion.
 
 
-Saved X dollars per month switching our stack from AMD to ARM processors
+Design, implemented and maintained several microservices and libraries using
 
-Achieved up to 65% of hourly cost savings by switching our stack from x64 to ARM processors
+Configured pre-commit to format and check for inadequacies CI/CD to 
+
+Configured pre-commit, pre-push, and CI/CD to improve the workflow and the software development processes.
+Configured pre-commit, pre-push, and CI/CD to improve the programming workflow and the software development processes.
+
+Successfully dealt with daylight saving time and timezone issues.
+Successfully fixed daylight saving time and timezone issues on server side by creating a new dataclass to handle all complexity

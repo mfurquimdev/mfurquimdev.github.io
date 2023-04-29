@@ -1,6 +1,6 @@
 all:
-	@pdflatex main.tex
-	@convert -density 150 main.pdf -flatten -alpha off  main.png
+	@pdflatex resume.tex
+	@convert -density 150 resume.pdf -flatten -alpha off  resume.png
 	$(MAKE) clean
 
 clean:
