@@ -10,7 +10,19 @@ intro:
   title: Sitio en construcción
   desc: Plantilla de Inicio de Vite Dogmática
   dynamic-route: Demo de ruta dinámica
-  hi: ¡Hola, {name}!
+  hi: ¡Hola!
   aka: También conocido como
   whats-your-name: ¿Cómo te llamas?
+about_me:
+  title: Acerca de mí
+  subtitle: Ingeniero de Software y Entusiasta de Linux
+  software_engineering:
+    title: Ingeniería de Software
+    subtitle: El arte de diseñar, crear y mantener sistemas de software con una combinación de habilidades técnicas y creativas con el objetivo de mejorar la experiencia del usuario.
+    description: Demostrando competencia en todo el proceso de desarrollo de software, un ingeniero de software emplea una amplia gama de técnicas y mejores prácticas para
+    item_1: Obtener requisitos en consulta con las partes interesadas
+    item_2: Diseñar la arquitectura del sistema.
+    item_3: Implementar patrones conscientes de GoF y principios SOLID
+    item_4: Logre una cobertura óptima de pruebas unitarias y de integración
+    item_5: Hacer deploy aprovechando el CI/CD
 not-found: No se ha encontrado

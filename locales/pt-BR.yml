@@ -10,7 +10,19 @@ intro:
   title: Site em construção
   desc: Modelo Opinativo de Partida de Vite
   dynamic-route: Demonstração de rota dinâmica
-  hi: Olá, {name}!
+  hi: Olá!
   aka: Também conhecido como
   whats-your-name: Qual é o seu nome?
+about_me:
+  title: Sobre mim
+  subtitle: Engenheiro de Software e Entusiasta Linux
+  software_engineering:
+    title: Engenharia de Software
+    subtitle: A arte de projetar, criar e manter sistemas de software com uma combinação de habilidades técnicas e criativas com o objetivo de aprimorar a experiência do usuário.
+    description: Exibindo proficiência em todo o processo de desenvolvimento de software, um Engenheiro de Software emprega uma gama diversificada de técnicas e melhores práticas para
+    item_1: Elicitar requisitos em consulta com as partes interessadas
+    item_2: Desenhar a arquitetura do sistema 
+    item_3: Implementar o código ciente dos padrões GoF e princípios SOLID
+    item_4: Obter cobertura ideal de teste de unidade e integração
+    item_5: Fazer deploy aproveitando o CI/CD
 not-found: Não encontrado

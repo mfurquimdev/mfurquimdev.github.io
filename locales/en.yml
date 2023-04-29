@@ -10,7 +10,19 @@ intro:
   title: Site under construction
   desc: Opinionated Vite Starter Template
   dynamic-route: Demo of dynamic route
-  hi: Hi, {name}!
+  hi: Hi!
   aka: Also known as
   whats-your-name: What's your name?
+about_me:
+  title: About me
+  subtitle: Software Engineer and Linux Enthusiast
+  software_engineering:
+    title: Software Engineering
+    subtitle: The art of designing, creating, and maintaining software systems with a combination of technical and creative skills aiming to enhance the user's experience.
+    description: Exhibiting proficiency in the entire software development process, a Software Engineer employs a diverse range of techniques and best practices to
+    item_1: Elicit requirements in consultation with the stakeholders
+    item_2: Design the system's architecture
+    item_3: Implement the code aware of GoF patterns and SOLID principles
+    item_4: Attain optimal unit and integration testing coverage
+    item_5: Deploy leveraging CI/CD
 not-found: Not found
