@@ -8,7 +8,7 @@ useHead({
     { name: 'description', content: 'A personal portifolio' },
     {
       name: 'theme-color',
-      content: computed(() => isDark.value ? '#ff0000' : '#ECEFF4'),
+      content: computed(() => isDark.value ? '#2E3440' : '#ECEFF4'),
     },
   ],
   link: [

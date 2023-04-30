@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({
-  name: 'AboutMe',
+  name: 'Job Experience',
 })
 const { t } = useI18n()
 </script>
@@ -8,6 +8,6 @@ const { t } = useI18n()
 
 <template>
 <div class="text-center">
-    <h2>{{ t('intro.hi') }}</h2>
+    <h2>{{ t('experience.title') }}</h2>
 </div>
 </template>

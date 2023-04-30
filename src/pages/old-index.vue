@@ -8,9 +8,11 @@ const { t } = useI18n()
 <template>
   <div>
     <div text-4xl>
-
       <div i-carbon-construction class="text-4xl m-auto" inline-block />
     </div>
+
+    <SoftwareCraft />
+
     <p>
       <p>{{ t('intro.title') }}</p>
     </p>

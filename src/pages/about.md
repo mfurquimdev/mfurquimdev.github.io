@@ -10,8 +10,8 @@ class AboutMe:
         self.name = "Mateus Furquim"
         self.craft = "Software Engineering"
 
-    def __str__(self):
+    def __repr__(self):
         return "MFurquim Dev"
 ```
-<AboutMe/>
 
+<AboutMe />

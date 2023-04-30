@@ -1,12 +1,16 @@
 button:
+  experience: Experiencia
   about: Acerca de
+  contact: Contacto
   back: Atrás
   go: Ir
   home: Inicio
   toggle_dark: Alternar modo oscuro
   toggle_langs: Cambiar idiomas
+credits:
+  madewith: Hecho con
+  and: y
 intro:
-  template: Hecho con
   title: Sitio en construcción
   desc: Plantilla de Inicio de Vite Dogmática
   dynamic-route: Demo de ruta dinámica
@@ -15,6 +19,10 @@ intro:
   whats-your-name: ¿Cómo te llamas?
 about_me:
   title: Acerca de mí
+experience:
+  title: Experiencia
+software_craft:
+  title: Oficio
   subtitle: Ingeniero de Software y Entusiasta de Linux
   software_engineering:
     title: Ingeniería de Software
@@ -25,4 +33,6 @@ about_me:
     item_3: Implementar patrones conscientes de GoF y principios SOLID
     item_4: Logre una cobertura óptima de pruebas unitarias y de integración
     item_5: Hacer deploy aprovechando el CI/CD
+footer:
+  lets_connect: Conectemos!
 not-found: No se ha encontrado

@@ -11,31 +11,32 @@ const toggleLocales = () => {
 <template>
   <nav text-xl mt-6 flex items-center justify-center>
     <div class="flex-grow">
+        <RouterLink class="icon-btn mx-2" to="/" :title="t('button.home')">
+            <div i-carbon-home class="text-2xl m-auto" />
+        </RouterLink>
 
+        <RouterLink class="icon-btn mx-2" to="/experience" :title="t('button.experience')">
+            <div i-carbon-portfolio class="text-2xl m-auto" />
+        </RouterLink>
+
+        <RouterLink class="icon-btn mx-2" to="/about" :title="t('button.about')">
+            <div i-carbon-user-avatar-filled-alt class="text-2xl m-auto" />
+        </RouterLink>
+
+        <RouterLink class="icon-btn mx-2" to="/contact" :title="t('button.contact')">
+            <div i-carbon-at class="text-2xl m-auto" />
+        </RouterLink>
     </div>
-    <RouterLink class="icon-btn mx-2" to="/" :title="t('button.home')">
-    <div i-carbon-home class="text-2xl m-auto" />
-        {{ t('button.home') }}
-    </RouterLink>
-
-    <RouterLink class="icon-btn mx-2" to="/about" :title="t('button.about')">
-    <div i-carbon-user-avatar-filled class="text-2xl m-auto" />
-        {{ t('button.about') }}
-    </RouterLink>
-
 
     <div class="flex-grow">
+        <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales()">
+            <div i-carbon-ibm-watson-language-translator class="text-2xl m-auto" />
+        </a>
 
+        <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
+            <div i="carbon-sun dark:carbon-moon" class="text-2xl m-auto" />
+        </button>
     </div>
-    <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales()">
-      <div i-carbon-ibm-watson-language-translator class="text-2xl m-auto" />
-    </a>
 
-    <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
-      <div i="carbon-sun dark:carbon-moon" class="text-2xl m-auto" />
-    </button>
-
-    <div class="flex-grow">
-    </div>
  </nav>
 </template>
