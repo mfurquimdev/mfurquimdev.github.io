@@ -19,6 +19,10 @@ intro:
   whats-your-name: ¿Cómo te llamas?
 about_me:
   title: Acerca de mí
+  p1: Con más de 8 años de experiencia en desarrollo de software, soy ingeniero de aprendizaje automático y desarrollador back-end con una gran pasión por crear sistemas robustos que puedan resolver problemas complejos del mundo real.
+  p2: Demuestro competencia en el funcionamiento dentro de un entorno de terminal y empleo un flujo de trabajo de desarrollo sofisticado que recuerda a una actuación orquestal.
+  p3: Mi capacidad para obtener requisitos de las partes interesadas y asesorar a otros desarrolladores sobre mis competencias técnicas básicas ejemplifica mi habilidad blanda de comunicación efectiva.
+  p4: Tengo una licenciatura en Ingeniería de Software de la Universidade de Brasilia (UnB) y obtuve una certificación de nanogrado como Ingeniero DevOps de Machine Learning de Udacity.
 experience:
   title: Experiencia
 software_craft:

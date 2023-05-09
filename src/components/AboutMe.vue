@@ -8,6 +8,24 @@ const { t } = useI18n()
 
 <template>
 <div class="text-center">
-    <h2>{{ t('intro.hi') }}</h2>
+
+<div class="text-justify">
+    <p>
+    {{ t('about_me.p1') }}
+    </p>
+
+    <p>
+    {{ t('about_me.p2') }}
+    </p>
+
+    <p>
+    {{ t('about_me.p3') }}
+    </p>
+
+    <p>
+    {{ t('about_me.p4') }}
+    </p>
+</div>
+
 </div>
 </template>

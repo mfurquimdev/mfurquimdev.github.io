@@ -19,6 +19,10 @@ intro:
   whats-your-name: What's your name?
 about_me:
   title: About me
+  p1: With over 8 years of experience in software development, I am a Machine Learning Engineer and Back-end Developer with a strong passion for creating robust systems that can solve complex real-world problems.
+  p2: I demonstrate proficiency in operating within a terminal environment and employ a sophisticated development workflow that is reminiscent of an orchestral performance.
+  p3: My ability to elicit requirements from stakeholders and mentor fellow developers on my core technical competencies exemplifies my soft skill of effective communication.
+  p4: I hold a Bachelor's degree in Software Engineering from Universidade de Brasilia (UnB) and have obtained a nanodegree certification as a Machine Learning DevOps Engineer from Udacity.
 experience:
   title: Experience
 software_craft:

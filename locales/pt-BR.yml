@@ -19,6 +19,10 @@ intro:
   whats-your-name: Qual é o seu nome?
 about_me:
   title: Sobre mim
+  p1: Com mais de 8 anos de experiência em desenvolvimento de software, sou Engenheiro de Machine Learning e Desenvolvedor Back-end com uma forte paixão por criar sistemas robustos que possam resolver problemas complexos do mundo real.
+  p2: Demonstro proficiência em operar em um ambiente de terminal e emprego um fluxo de trabalho de desenvolvimento sofisticado que lembra uma performance orquestral.
+  p3: Minha capacidade de obter requisitos das partes interessadas e orientar outros desenvolvedores em minhas principais competências técnicas exemplifica minha habilidade suave de comunicação eficaz.
+  p4: Sou formado em Engenharia de Software pela Universidade de Brasília (UnB) e obtive a certificação nanodegree como Machine Learning DevOps Engineer pela Udacity.
 experience:
   title: Oficio
 software_craft:
