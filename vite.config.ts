@@ -103,7 +103,7 @@ export default defineConfig({
       manifest: {
         name: 'Vitesse',
         short_name: 'Vitesse',
-        theme_color: '#ffffff',
+        theme_color: '#ECEFF4',
         icons: [
           {
             src: '/pwa-192x192.png',
