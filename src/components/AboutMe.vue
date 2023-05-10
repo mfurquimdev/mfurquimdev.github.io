@@ -5,6 +5,11 @@ defineOptions({
 const { t } = useI18n()
 </script>
 
+<style>
+p {
+    font-size: large;
+}
+</style>
 
 <template>
 <div class="text-center">

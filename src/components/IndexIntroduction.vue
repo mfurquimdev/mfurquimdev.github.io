@@ -13,10 +13,7 @@ const { t } = useI18n()
 </style>
 
 <template>
-<div class="component-root">
+<div class="component-root text-center">
     <h1>{{ t('index.introduction.title') }}</h1>
-    <div class="text-center">
-        <h2>{{ t('index.introduction.title') }}</h2>
-    </div>
 </div>
 </template>

@@ -10,6 +10,9 @@ button:
 credits:
   madewith: Made with
   and: and
+index:
+  introduction:
+    title: Welcome
 intro:
   title: Site under construction
   desc: Opinionated Vite Starter Template

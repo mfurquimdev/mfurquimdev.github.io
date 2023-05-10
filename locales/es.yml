@@ -10,6 +10,9 @@ button:
 credits:
   madewith: Hecho con
   and: y
+index:
+  introduction:
+    title: Bienvenido
 intro:
   title: Sitio en construcción
   desc: Plantilla de Inicio de Vite Dogmática

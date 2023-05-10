@@ -10,6 +10,9 @@ button:
 credits:
   madewith: Feito com
   and: e
+index:
+  introduction:
+    title: Bem vindo
 intro:
   title: Site em construção
   desc: Modelo Opinativo de Partida de Vite
