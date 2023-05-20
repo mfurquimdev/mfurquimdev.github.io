@@ -22,12 +22,16 @@ intro:
   whats-your-name: ¿Cómo te llamas?
 about_me:
   title: Acerca de mí
+  p1: Soy un recién casado que disfruta de la cultura geek, leer novelas de ciencia ficción y jugar intensos juegos de mesa estratégicos con mi esposa y amigos,
+  p2: Durante mis estudios de ingeniería de software en la Universidad de Victoria en Canadá, tuve la increíble oportunidad de hacer una pasantía en 2015 en una organización sin fines de lucro enfocada en mejorar la vida de personas mayores y personas con discapacidades.
+  p3: Desde entonces, he adquirido experiencia en diversos campos, incluida la consultoría DevOps, el desarrollo integrado y el desarrollo de back-end con un enfoque en la implementación de modelos de aprendizaje automático.
+  p4: En 2022, completé un curso especializado en Machine Learning DevOps Engineer de Udacity, lo que ha mejorado aún más mis conocimientos y habilidades. Con mi experiencia en ingeniería de software y un fuerte enfoque en el aprendizaje automático, estoy decidido a convertirme en una autoridad reconocida en el campo.
+experience:
+  title: Experiencia
   p1: Con más de 8 años de experiencia en desarrollo de software, soy ingeniero de aprendizaje automático y desarrollador back-end con una gran pasión por crear sistemas robustos que puedan resolver problemas complejos del mundo real.
   p2: Demuestro competencia en el funcionamiento dentro de un entorno de terminal y empleo un flujo de trabajo de desarrollo sofisticado que recuerda a una actuación orquestal.
   p3: Mi capacidad para obtener requisitos de las partes interesadas y asesorar a otros desarrolladores sobre mis competencias técnicas básicas ejemplifica mi habilidad blanda de comunicación efectiva.
   p4: Tengo una licenciatura en Ingeniería de Software de la Universidade de Brasilia (UnB) y obtuve una certificación de nanogrado como Ingeniero DevOps de Machine Learning de Udacity.
-experience:
-  title: Experiencia
 software_craft:
   title: Oficio
   subtitle: Ingeniero de Software y Entusiasta de Linux

@@ -22,12 +22,16 @@ intro:
   whats-your-name: What's your name?
 about_me:
   title: About me
+  p1: I'm a newlywed who enjoys geek culture, reading Sci-Fi novels, and playing intense strategic board games with my wife and friends,
+  p2: During my software engineering studies at the University of Victoria in Canada, I had the amazing opportunity to intern in 2015 with a non-profit organization focused on enhancing the lives of elders and individuals with disabilities.
+  p3: Since then, I've gained experience in diverse fields, including DevOps consultancy, embedded development, and back-end development with a focus on deploying machine learning models.
+  p4: In 2022, I completed a specialized course in Machine Learning DevOps Engineer from Udacity, which has further enhanced my knowledge and skills. With my expertise in software engineering and strong focus on machine learning, I'm determined to become a recognized authority in the field.
+experience:
+  title: Experience
   p1: With over 8 years of experience in software development, I am a Machine Learning Engineer and Back-end Developer with a strong passion for creating robust systems that can solve complex real-world problems.
   p2: I demonstrate proficiency in operating within a terminal environment and employ a sophisticated development workflow that is reminiscent of an orchestral performance.
   p3: My ability to elicit requirements from stakeholders and mentor fellow developers on my core technical competencies exemplifies my soft skill of effective communication.
   p4: I hold a Bachelor's degree in Software Engineering from Universidade de Brasilia (UnB) and have obtained a nanodegree certification as a Machine Learning DevOps Engineer from Udacity.
-experience:
-  title: Experience
 software_craft:
   title: Craft
   subtitle: Software Engineer and Linux Enthusiast
