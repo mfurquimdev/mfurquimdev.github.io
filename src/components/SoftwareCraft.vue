@@ -5,19 +5,19 @@ defineOptions({
 const { t } = useI18n()
 </script>
 
-<style>
+<style scoped>
 p {
     font-size: large;
+    line-height: 161.8%; /* 4px +12px + 4px */
+    text-indent: 6.1%;
 }
 </style>
 
 <template>
-<div class="text-center">
-    <h2>{{ t('software_craft.software_engineering.title') }}</h2>
-</div>
 <div class="text-justify">
-    <h4>
-    {{ t('software_craft.software_engineering.subtitle') }}
-    </h4>
+    <p>
+        <b>{{ t('software_craft.software_engineering.title') }}</b> -
+        {{ t('software_craft.software_engineering.subtitle') }}
+    </p>
 </div>
 </template>
