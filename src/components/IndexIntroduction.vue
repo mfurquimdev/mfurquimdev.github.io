@@ -6,7 +6,7 @@ defineOptions({
 const { t } = useI18n()
 </script>
 
-<style>
+<style scoped>
 .component-root {
     /* background-color: #2E3440; */
 }

@@ -5,7 +5,7 @@ defineOptions({
 const { t } = useI18n()
 </script>
 
-<style>
+<style scoped>
 p {
     font-size: large;
 }

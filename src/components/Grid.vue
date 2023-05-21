@@ -76,7 +76,7 @@ export default {
   <p v-else>No matches found.</p>
 </template>
 
-<style>
+<style scoped>
 table {
   border: 2px solid #D8DEE9;
   border-radius: 6px;
