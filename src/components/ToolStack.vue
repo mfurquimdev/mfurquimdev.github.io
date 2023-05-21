@@ -5,17 +5,25 @@ defineOptions({
 const { t } = useI18n()
 </script>
 
-<style>
+<style scoped>
 p {
     font-size: large;
 }
+.mybadge {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
 </style>
+
 
 <template>
 <div align='center'>
 <h3>What I currently use to work</h3>
 
-<div class="row" style="display: flex; flex-wrap: wrap; align-content: space-around; align-items: center; justify-content: center;">
+<div class="mybadge">
 <a href="https://archlinux.org/">
     <img
         src="https://img.shields.io/static/v1?style=for-the-badge&logo=archlinux&logoColor=ECEFF4&label=Arch&labelColor=1793D1&message=Linux&color=1CA2E6"
@@ -39,7 +47,7 @@ p {
 </div>
 <br>
 
-<div class="row" style="display: flex; flex-wrap: wrap; align-content: space-around; align-items: center; justify-content: center;">
+<div class="mybadge">
 <a href="https://www.python.org/">
     <img
         src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=eceff4"

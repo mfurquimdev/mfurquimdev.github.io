@@ -18,7 +18,6 @@ declare module '@vue/runtime-core' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SoftwareCraft: typeof import('./components/SoftwareCraft.vue')['default']
-    Stack: typeof import('./components/Stack.vue')['default']
     TheCounter: typeof import('./components/TheCounter.vue')['default']
     TheFooter: typeof import('./components/TheFooter.vue')['default']
     TheIcons: typeof import('./components/TheIcons.vue')['default']
