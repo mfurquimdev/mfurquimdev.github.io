@@ -144,7 +144,7 @@
     \medskip
     {\footnotesize\bfseries\@personalinfo\par}
 	\par{}%
-  \endgroup\bigskip\medskip
+  \endgroup\bigskip
 }
 
 \renewenvironment{quote}{\color{accent}\itshape\large}{\par}
@@ -164,12 +164,15 @@
 % v1.1.4: fixes inconsistent font size
 \newcommand{\cvevent}[4]{%
   % {\large\color{emphasis}\bfseries#1\par}
-  {\large\color{emphasis}\bfseries#1\hfill}
+  {\large\color{emphasis}\bfseries#1\hfill} % Title of the event
   \smallskip\normalsize
-  \ifstrequal{#2}{}{}{\textbf{\color{accent}#2}\par}
+  \ifstrequal{#3}{}{}{{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#3}}\par} % Date
+  % \ifstrequal{#2}{}{}{}\par} % Name of the company
   % \ifstrequal{#2}{}{}{{\makebox[0.3\linewidth][l]{\textbf{\color{accent}#2}\par}}}%
-  \ifstrequal{#3}{}{}{{\small\makebox[0.4\linewidth][l]{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#3}}}}%
-  \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#4}}}}\par
+  % \ifstrequal{#3}{}{}{{\small\makebox[0.4\linewidth][l]{\textbf{\color{accent}#2}}}} % Date
+  % \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#4}}}}\par % Location
+  \ifstrequal{#3}{}{}{{\small\textbf{\color{accent}#2}}} % Date
+  \ifstrequal{#4}{}{}{{\hfill\small\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}#4}}}\par % Location
   % \smallskip
 }
 
@@ -187,8 +190,8 @@
   {\large\color{emphasis}\bfseries#1\par}
   \smallskip\normalsize
   \ifstrequal{#2}{}{}{\textbf{\color{accent}#2}\par}
-  \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}\footnotesize#3}}}}%
-  \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}\footnotesize#4}}}}\par
+  \ifstrequal{#4}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faMapMarker*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}\footnotesize#4}}}}%
+  \ifstrequal{#3}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faCalendar[regular]}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}\footnotesize#3}}}}\par%
   \ifstrequal{#5}{}{}{{\small\makebox[0.5\linewidth][l]{\textcolor{icons}{\scriptsize\faExchange*}\footnotesize\textcolor{NordPolarNight4}{\hspace{0.5em}\footnotesize#5}}}}\par
   \smallskip
 }

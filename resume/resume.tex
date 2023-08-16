@@ -29,13 +29,16 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{tasks}
 
+\usepackage{lipsum}  
+
+
 % Change the bullets for itemize and rating marker
 \renewcommand{\itemmarker}{{\small\textbullet}}
 \renewcommand{\ratingmarker}{\faCircle}
 
 \begin{document}
 \name{Mateus M. Furquim Mendonca}
-\tagline{Machine Learning Engineer \& Backend Developer}
+\tagline{Machine Learning and Software Engineer}
 \personalinfo{
     \email{\href{mailto:mfurquimdev@gmail.com}{\underline{mfurquimdev@gmail.com}}}
     \github{\href{https://github.com/mfurquimdev}{\underline{mfurquimdev}}}
@@ -51,25 +54,34 @@
 %% Make the header extend all the way to the right, if you want.
 \begin{fullwidth}
 \makecvheader
-\end{fullwidth}
+\cvsection{Professional Summary}
+Data-driven software engineer with more than five years of experience focusing on back-end development.
+Dedicated to fostering team growth and innovation through effective mentoring and collaboration.
+Strong problem-solving skills and a passion for delivering high-quality software solutions.
+% Skilled in Machine Learning, back-end, and Python.
+
+% \lipsum[11]
+\bigskip
 
 %% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
 \AtBeginEnvironment{itemize}{\small}
 
-\cvsection[page1sidebar]{\kern-.6em Experience}
+\cvsection{\kern-.54em Work Experience}
 
 \cvevent{Machine Learning Engineer}{\href{https://devgrid.co.uk/}{DevGrid}}{Jan 2021 -- Present}{United Kingdom (Remote)}
 
 {\smallskip\justifying {\color{description}
-Maintained several microservices that employ machine learning algorithms to estimate the energy usage of household appliances.
-} \par}
+% Maintained several microservices that employ machine learning algorithms to estimate the energy usage of household appliances.
+Managed several microservices that employ machine learning algorithms to estimate house appliances' energy consumption.%
+    }\par}
 \smallskip
 \begin{itemize}
 	\item[\color{midaccent}\faAngleRight] {\smallskip\justifying {\color{description}
         Achieved up to 59\% improvement in {\bfseries\color{tech}\href{https://www.python.org/}{Python}} write operations on {\bfseries\color{tech}\href{https://cassandra.apache.org/}{Cassandra}} through the safe utilization of unlogged batches.
         }\par}
 	\item[\color{midaccent}\faAngleRight] {\smallskip\justifying {\color{description}
-        Resolved daylight saving time and timezone inconsistencies by developing a library that accurately handles arithmetic operations on datetime objects.
+        Effectively addressed daylight saving time and timezone issues by {\bfseries\color{tech}\href{https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)}{encapsulating}} it within a {\bfseries\color{tech}\href{https://docs.python.org/3/library/dataclasses.html}{dataclass}}, ensuring simplified maintenance.
+%        Resolved daylight saving time and timezone inconsistencies by encapsulating the complexity within a dataclass for easy maintenance.
         } \par}
 \end{itemize}
 
@@ -87,7 +99,7 @@ Maintained several microservices that employ machine learning algorithms to esti
 \cvevent{Embedded Software Developer}{\href{https://www.autotrac.com.br/}{Autotrac}}{Nov 2019 -- Aug 2020}{Brasilia, DF - Brazil}
 
 {\smallskip\justifying {\color{description}
-Maintained the security and logistic features of an embedded system for a customized hardware.
+Maintained the security and logistic features of an embedded system for a customized hardware and Linux kernel.
 } \par}
 \smallskip
 \begin{itemize}
@@ -110,28 +122,30 @@ Maintained the security and logistic features of an embedded system for a custom
 
 
 %% IBM - Desenvolvedor de Software e Consultor DevOps
-\cvevent{DevOps Consultant}{\href{https://www.ibm.com/}{IBM}}{Jan 2019 -- Nov 2019}{Brasilia, DF - Brazil}
+\cvevent{DevOps and SRE Consultant}{\href{https://www.ibm.com/}{IBM}}{Jan 2019 -- Nov 2019}{Brasilia, DF - Brazil}
 
 {\smallskip\justifying {\color{description}
-Collaborated with multiple teams to improve observability of the back-end services for a prominent banking institution.
+Collaborated with multiple teams to improve observability of the back-end services of a prominent banking institution.
 } \par}
 \smallskip
 \begin{itemize}
 	\item[\color{midaccent}\faAngleRight] {\smallskip\justifying {\color{description}
-        Contributed to the development of self-discovering services by utilizing the {\bfseries\color{tech}\href{https://etcd.io/}{etcd}} key-value store, {\bfseries\color{tech}\href{https://en.wikipedia.org/wiki/Consistent_hashing}{consistent hashing}} and a {\bfseries\color{tech}\href{https://prometheus.io/docs/prometheus/latest/federation/#federation}{federation of Prometheus}}.
+        Contributed to self-discovering services feature by utilizing the {\bfseries\color{tech}\href{https://etcd.io/}{etcd}} key-value store, {\bfseries\color{tech}\href{https://en.wikipedia.org/wiki/Consistent_hashing}{consistent hashing}} and a {\bfseries\color{tech}\href{https://prometheus.io/docs/prometheus/latest/federation/#federation}{federation of Prometheus}}.%
         } \par}
 	\item[\color{midaccent}\faAngleRight] {\smallskip\justifying {\color{description}
-        Employed {\bfseries\color{tech}\href{https://prometheus.io/docs/prometheus/latest/querying/basics/}{PromQL}} to develop alerts that detected potential DDoS attacks and low performance of new deployments.
+        Employed {\bfseries\color{tech}\href{https://prometheus.io/docs/prometheus/latest/querying/basics/}{PromQL}} to develop alerts that detected low performance of new deployments and potential DDoS attacks.
         } \par}
 \end{itemize}
 
 % {\justifying {\color{description}
 % {\bfseries Achievement:} Simultaneously worked in two different teams.
 % } \par}
+\bigskip
+\end{fullwidth}
 
-\divider
-\medskip
+% \divider
 
+\cvsection[page1sidebar]{\kern-.54em Intern Experience}
 
 \cvevent{Security Software Researcher}{\href{https://fga.unb.br/lades/apresentacao}{LADES} at {\href{https://fga.unb.br/software}{UnB}}}{Nov 2015 -- Jan 2017}{Brasilia, DF - Brazil}
 

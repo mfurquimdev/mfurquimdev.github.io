@@ -1,8 +1,6 @@
-With over 8 years of experience in software development, Mateus Furquim is a Machine Learning Engineer and Back-end Developer with a strong passion for creating robust systems that can solve complex real-world problems.
+Hi, my name is Mateus Furquim, and I am a software engineer with over 8 years of experience in the field.
 
-He demonstrates proficiency in operating within a terminal environment and employs a sophisticated development workflow that is reminiscent of an orchestral performance.
+I have always been enthusiastic about Artificial Intelligence ever since my under graduation studies.
+One of my projects at Universidade de Brasília was a web application where you submit an image, and it returns other images by similarity. This project uses the Django web framework for the back-end, the Bootstrap framework for the front-end, and the K next neighbours algorithm to select the closest images.
 
-His ability to elicit requirements from stakeholders and mentor fellow developers on his core technical competencies exemplifies his soft skill of effective communication.
-
-Mateus holds a Bachelor's degree in Software Engineering from Universidade de Brasilia (UnB) and has obtained a nanodegree certification as a Machine Learning DevOps Engineer from Udacity.
-
+At my current role, I design, implement and maintain more than twenty micro services to estimate the energy consumption of each house appliance using machine learning algorithms developed by the research team.
