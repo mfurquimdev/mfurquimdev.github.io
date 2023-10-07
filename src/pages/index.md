@@ -1,4 +1,3 @@
 <IndexIntroduction/>
 <SoftwareCraft/>
 <ToolStack/>
-<Services/>
