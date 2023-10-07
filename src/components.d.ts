@@ -22,6 +22,7 @@ declare module '@vue/runtime-core' {
     TheFooter: typeof import('./components/TheFooter.vue')['default']
     TheIcons: typeof import('./components/TheIcons.vue')['default']
     TheInput: typeof import('./components/TheInput.vue')['default']
+    TheMarkMap: typeof import('./components/TheMarkMap.vue')['default']
     TheNav: typeof import('./components/TheNav.vue')['default']
     TheTermynal: typeof import('./components/TheTermynal.vue')['default']
     ToolStack: typeof import('./components/ToolStack.vue')['default']

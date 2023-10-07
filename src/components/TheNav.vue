@@ -22,10 +22,6 @@ const toggleLocales = () => {
         <RouterLink class="icon-btn mx-2" to="/about" :title="t('button.about')">
             <div i-carbon-user-avatar-filled-alt class="text-2xl m-auto" />
         </RouterLink>
-
-        <RouterLink class="icon-btn mx-2" to="/contact" :title="t('button.contact')">
-            <div i-carbon-at class="text-2xl m-auto" />
-        </RouterLink>
     </div>
 
     <div class="flex-grow">
